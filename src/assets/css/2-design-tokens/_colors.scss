@@ -1,19 +1,45 @@
 :root {
-    --textColor: #1A1A1A;
-    --primaryColor: #7134ff;
-    --focusColor: #7231ff;
-    --backgroundColor: #ffffff;
+    --textColor: #2c1810;
+    --textColorLight: #8b5a3c;
+    --textColorLighter: #a67c5a;
+    --primaryColor: #c17817;
+    --primaryColorLight: #d4941f;
+    --secondaryColor: #6b4423;
+    --accentColor: #d35400;
+    --terracottaColor: #cd6133;
+    --forestColor: #4a5d23;
+    --indigoColor: #2c3e50;
+    --soganColor: #b8860b;
+    --focusColor: #c17817;
+    --backgroundColor: #faf8f5;
+    --backgroundColorAlt: #f4f1ec;
+    --backgroundWarm: #f7f3ed;
+    --borderColor: #d4c5b0;
+    --borderColorLight: #e8ddd0;
 }
 
-// Very basic support for a dark color scheme
+// Dark color scheme
 @media (prefers-color-scheme: dark) {
     :root {
         --color-mode: 'dark';
     }
 
     :root:not([data-user-color-scheme]) {
-        --backgroundColor: #1A1A1A;
-        --textColor: #eeeeee;
-        --primaryColor: #A15CFF;
+        --textColor: #f4f1ec;
+        --textColorLight: #d4c5b0;
+        --textColorLighter: #a67c5a;
+        --primaryColor: #d4941f;
+        --primaryColorLight: #e6a82d;
+        --secondaryColor: #8b5a3c;
+        --accentColor: #e67e22;
+        --terracottaColor: #e17b47;
+        --forestColor: #5a6b2d;
+        --indigoColor: #34495e;
+        --soganColor: #daa520;
+        --backgroundColor: #1a1612;
+        --backgroundColorAlt: #2c2520;
+        --backgroundWarm: #241f1a;
+        --borderColor: #3d342a;
+        --borderColorLight: #4a3e32;
     }
 }

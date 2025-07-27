@@ -1,0 +1,501 @@
+.sketches-page {
+    min-height: 100vh;
+    position: relative;
+}
+
+.sketches-header {
+    position: fixed;
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    background-color: rgba(250, 248, 245, 0.95);
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--borderColorLight);
+    max-height: calc(100vh - 6rem);
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 2rem;
+    
+    .sketches-info {
+        flex: 1;
+        
+        h2 {
+            margin: 0 0 0.5rem 0;
+            font-size: var(--fluid-1);
+            color: var(--textColor);
+        }
+        
+        .sketches-description {
+            font-size: 0.8rem;
+            color: var(--textColorLight);
+            margin: 0;
+            line-height: 1.3;
+        }
+    }
+    
+    .sketches-filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        align-items: flex-end;
+        
+        .filter-btn {
+            background: transparent;
+            border: 1px solid var(--borderColor);
+            color: var(--textColor);
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            font-weight: var(--font-weight-medium);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            
+            &:hover {
+                background-color: var(--primaryColor);
+                border-color: var(--primaryColor);
+                color: var(--backgroundColor);
+            }
+            
+            &.active {
+                background-color: var(--primaryColor);
+                border-color: var(--primaryColor);
+                color: var(--backgroundColor);
+            }
+        }
+    }
+    
+    @media (max-width: 768px) {
+        left: 1rem;
+        right: 1rem;
+        padding: 0.5rem 1rem;
+        max-height: calc(100vh - 4rem);
+        flex-direction: column;
+        gap: 1rem;
+        
+        .sketches-info {
+            h2 {
+                font-size: 1.1rem;
+                margin: 0 0 0.25rem 0;
+            }
+            
+            .sketches-description {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+
+.sketches-map {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+// Override global link styles for Leaflet controls
+.leaflet-control-zoom a {
+    font-family: inherit !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-decoration: none !important;
+    
+    &::before {
+        content: none !important;
+    }
+}
+
+// Style zoom controls with + and - symbols
+.leaflet-control-zoom-in a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &::after {
+        content: '+';
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1;
+    }
+}
+
+.leaflet-control-zoom-out a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &::after {
+        content: '−';
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1;
+    }
+}
+
+// Custom marker styles
+.sketch-marker {
+    background-color: var(--primaryColor);
+    border: 3px solid var(--backgroundColor);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    &:hover {
+        transform: scale(1.2);
+        background-color: var(--accentColor);
+    }
+    
+    .sketch-marker__dot {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: inherit;
+    }
+    
+    .sketch-marker__count {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        background-color: var(--terracottaColor);
+        color: var(--backgroundColor);
+        font-family: var(--font-mono);
+        font-size: 0.7rem;
+        font-weight: var(--font-weight-bold);
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid var(--backgroundColor);
+    }
+}
+
+// Custom cluster styles
+.sketch-cluster {
+    background-color: var(--forestColor);
+    border: 3px solid var(--backgroundColor);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    &:hover {
+        transform: scale(1.1);
+        background-color: var(--indigoColor);
+    }
+    
+    span {
+        color: var(--backgroundColor);
+        font-family: var(--font-mono);
+        font-weight: var(--font-weight-bold);
+        font-size: 0.875rem;
+    }
+}
+
+// Modal styles
+.sketch-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    
+    &.hidden {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    &:not(.hidden) {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .sketch-modal__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(4px);
+        transition: backdrop-filter 0.3s ease;
+    }
+    
+    .sketch-modal__content {
+        position: relative;
+        background-color: var(--backgroundColor);
+        border-radius: 16px;
+        max-width: 1000px;
+        max-height: 80vh;
+        width: 100%;
+        overflow: hidden;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        display: flex;
+        transform: scale(0.95) translateY(20px);
+        transition: transform 0.3s ease;
+    }
+    
+    &:not(.hidden) .sketch-modal__content {
+        transform: scale(1) translateY(0);
+    }
+    
+    .sketch-modal__close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        color: var(--textColorLight);
+        cursor: pointer;
+        z-index: 10;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--backgroundColor);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        transition: all 0.2s ease;
+        
+        &:hover {
+            background-color: var(--backgroundColorAlt);
+            color: var(--textColor);
+        }
+    }
+    
+    .sketch-modal__images {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .sketch-modal__image {
+        display: flex;
+        min-height: 100%;
+        opacity: 1;
+        transform: translateX(0);
+        transition: opacity 0.15s ease;
+        
+        &.transitioning-out {
+            opacity: 0;
+        }
+        
+        &.transitioning-in {
+            opacity: 0;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 0;
+            margin: 0;
+            transition: none;
+        }
+        
+        &.single-image {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                border-radius: 0;
+                margin: 0;
+            }
+        }
+        
+        &:not(.single-image) {
+            flex-direction: column;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            
+            &:last-child {
+                margin-bottom: 0;
+            }
+            
+            img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    
+    .sketch-modal__sidebar {
+        width: 350px;
+        background-color: var(--backgroundColorAlt);
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        border-left: 1px solid var(--borderColorLight);
+        overflow-y: auto;
+        
+        .sketch-modal__image-info {
+            opacity: 1;
+            transition: opacity 0.15s ease;
+            
+            &.transitioning {
+                opacity: 0.3;
+            }
+            
+            h4 {
+                font-family: var(--font-serif);
+                font-style: italic;
+                margin-bottom: 0.75rem;
+                color: var(--primaryColor);
+                font-size: var(--fluid-1);
+                line-height: 1.3;
+            }
+            
+            p {
+                color: var(--textColorLight);
+                margin: 0;
+                font-size: 0.9rem;
+                line-height: 1.5;
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+            }
+        }
+        
+        .sketch-modal__navigation {
+            display: flex;
+            gap: 0.5rem;
+            
+            button {
+                flex: 1;
+                padding: 0.5rem 1rem;
+                background-color: var(--backgroundColor);
+                border: 1px solid var(--borderColor);
+                border-radius: 6px;
+                font-family: var(--font-mono);
+                font-size: 0.8rem;
+                color: var(--textColor);
+                cursor: pointer;
+                transition: all 0.2s ease;
+                
+                &:hover:not(:disabled) {
+                    background-color: var(--primaryColor);
+                    color: var(--backgroundColor);
+                    border-color: var(--primaryColor);
+                }
+                
+                &:disabled {
+                    opacity: 0.5;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+    
+    .sketch-modal__info {
+        padding: 2rem;
+        background-color: var(--backgroundColorAlt);
+        border-top: 1px solid var(--borderColorLight);
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        
+        .sketch-modal__location {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            
+            .location-icon {
+                width: 18px;
+                height: 18px;
+                fill: var(--textColorLight);
+                opacity: 0.8;
+            }
+            
+            span {
+                font-family: var(--font-sans);
+                font-size: 0.9rem;
+                color: var(--textColor);
+                margin: 0;
+            }
+        }
+        
+        .sketch-modal__date {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            
+            .date-icon {
+                width: 18px;
+                height: 18px;
+                fill: var(--textColorLight);
+                opacity: 0.8;
+            }
+            
+            span {
+                font-family: var(--font-mono);
+                font-size: 0.9rem;
+                color: var(--textColorLight);
+                margin: 0;
+            }
+        }
+    }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+    .sketch-modal {
+        padding: 1rem;
+        
+        .sketch-modal__content {
+            border-radius: 12px;
+            max-height: 90vh;
+        }
+        
+        .sketch-modal__images {
+            padding: 1.5rem;
+            padding-bottom: 0;
+        }
+        
+        .sketch-modal__info {
+            padding: 1.5rem;
+            gap: 1rem;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    
+    .sketches-header {
+        padding: 1rem 2rem;
+        
+        .sketches-description {
+            font-size: 1rem;
+        }
+    }
+}

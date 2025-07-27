@@ -46,12 +46,26 @@
          url('/assets/fonts/dm-sans/dm-sans-v11-latin-bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
+:root {
+    --font-serif: 'Charter', 'Lyon Text', 'Iowan Old Style', 'Apple Garamond', 'Baskerville', 'Times New Roman', serif;
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segue UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', 'Monaco', 'Consolas', monospace;
+    
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: var(--font-sans);
 }
+
 .fonts-loaded-1 body {
-    font-family: 'DM Sans Subset';
+    font-family: 'DM Sans Subset', var(--font-sans);
 }
+
 .fonts-loaded-2 body {
-    font-family: 'DM Sans';
+    font-family: var(--font-sans);
 }

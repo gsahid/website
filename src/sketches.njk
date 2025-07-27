@@ -1,0 +1,57 @@
+---
+layout: base
+title: Sketches
+eleventyNavigation:
+  key: Sketches
+  order: 2
+---
+
+<div class="sketches-page">
+    <div class="sketches-header">
+        <div class="sketches-info">
+            <h2>Sketches</h2>
+            <p class="sketches-description">Click on the markers to explore individual drawings.</p>
+        </div>
+        <div class="sketches-filters" id="year-filters">
+            <!-- Year filter buttons will be generated dynamically -->
+        </div>
+    </div>
+    
+    <div id="sketches-map" class="sketches-map"></div>
+    
+    <div id="sketch-modal" class="sketch-modal hidden">
+        <div class="sketch-modal__overlay"></div>
+        <div class="sketch-modal__content">
+            <button class="sketch-modal__close">&times;</button>
+            <div class="sketch-modal__images">
+                <!-- Images will be loaded here dynamically -->
+            </div>
+            <div class="sketch-modal__sidebar">
+                <div class="sketch-modal__image-info">
+                    <!-- Current image info will be loaded here -->
+                </div>
+                <div class="sketch-modal__navigation">
+                    <button id="prev-image">← Prev</button>
+                    <button id="next-image">Next →</button>
+                </div>
+                <div class="sketch-modal__info">
+                    <div class="sketch-modal__location"></div>
+                    <div class="sketch-modal__date"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+
+<script type="module">
+import { initializeSketchesMap } from '/assets/js/sketches.js';
+// Pass the sketches data to the JavaScript
+window.sketchesData = {{ sketches | dump | safe }};
+document.addEventListener('DOMContentLoaded', initializeSketchesMap);
+</script>

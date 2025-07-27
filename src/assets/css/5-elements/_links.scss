@@ -1,12 +1,98 @@
 a {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: var(--font-weight-medium);
     color: var(--primaryColor);
-    text-decoration: underline;
-
-    &:hover {
-        // 
+    text-decoration: none;
+    transition: all 0.2s ease;
+    
+    &::before {
+        content: '→ ';
+        opacity: 1;
+        transition: opacity 0.2s ease;
     }
+    
+    &:hover {
+        color: var(--terracottaColor);
+    }
+    
     svg {
         display: inline-block;
         fill: currentColor;
+    }
+}
+
+.link-serif {
+    font-family: var(--font-serif);
+    font-style: italic;
+    color: var(--secondaryColor);
+    text-decoration: underline;
+    text-decoration-color: var(--terracottaColor);
+    text-underline-offset: 4px;
+    
+    &:hover {
+        color: var(--accentColor);
+        text-decoration-color: var(--soganColor);
+    }
+}
+
+.link-mono {
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--forestColor);
+    border: 1px solid var(--borderColor);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    
+    &:hover {
+        background-color: var(--forestColor);
+        color: var(--backgroundColor);
+        border-color: var(--forestColor);
+    }
+}
+
+.link-accent {
+    color: var(--accentColor);
+    font-weight: var(--font-weight-bold);
+    text-transform: lowercase;
+    
+    &::before {
+        content: '→ ';
+        opacity: 0;
+        transition: opacity 0.2s ease;
+    }
+    
+    &:hover::before {
+        opacity: 1;
+    }
+    
+    &:hover {
+        color: var(--terracottaColor);
+    }
+}
+
+.link-subtle {
+    color: var(--textColorLight);
+    font-size: 0.9em;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 3px;
+    
+    &:hover {
+        color: var(--indigoColor);
+        text-decoration-style: solid;
+    }
+}
+
+h1 a, h2 a, h3 a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 3px solid var(--soganColor);
+    
+    &:hover {
+        background-color: var(--soganColor);
+        color: var(--backgroundColor);
     }
 }
