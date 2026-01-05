@@ -1,0 +1,45 @@
+---
+layout: base
+---
+<article class="field-note-article">
+    <header class="field-note-header">
+        <h1 class="field-note-heading">{{ title }}</h1>
+        {% if subtitle %}
+        <p class="field-note-subtitle">{{ subtitle }}</p>
+        {% endif %}
+        <time class="field-note-meta-date">{{ page.date | dateToFormat('MMMM d, yyyy') }}</time>
+    </header>
+
+    <div class="field-note-content">
+        {{ content | safe }}
+    </div>
+
+    {% set postIndex = collections.fieldNotes | findIndex(page.url) %}
+    {% if postIndex >= 0 %}
+    <nav class="field-note-navigation">
+        <div class="field-note-nav-prev">
+            {% if postIndex > 0 %}
+            {% set prevPost = collections.fieldNotes[postIndex - 1] %}
+            <a href="{{ prevPost.url }}" class="field-note-nav-link">
+                <span class="field-note-nav-label">← Prev</span>
+                <span class="field-note-nav-title">{{ prevPost.data.title }}</span>
+            </a>
+            {% endif %}
+        </div>
+
+        <div class="field-note-nav-next">
+            {% if postIndex < collections.fieldNotes.length - 1 %}
+            {% set nextPost = collections.fieldNotes[postIndex + 1] %}
+            <a href="{{ nextPost.url }}" class="field-note-nav-link">
+                <span class="field-note-nav-label">Next →</span>
+                <span class="field-note-nav-title">{{ nextPost.data.title }}</span>
+            </a>
+            {% endif %}
+        </div>
+    </nav>
+    {% endif %}
+
+    <footer class="field-note-footer">
+        <a href="/field-notes/" class="back-link">Back to field notes</a>
+    </footer>
+</article>

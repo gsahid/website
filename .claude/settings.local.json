@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(cat:*)",
+      "Bash(npx sass:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(file_path=\"/Users/galuh.sahid/Documents/Knowledge/Notes/gal/Gal/Field Notes/Fisherman''s Trail, Day 2 - Vila Nova de Milfontes to Almograve \\(14 km\\).md\")",
+      "Bash(if [ -f \"$file_path\" ])",
+      "Bash(then cat \"$file_path\")",
+      "Bash(else echo \"File not found\")",
+      "Bash(fi)",
+      "Bash(pkill:*)",
+      "Bash(done)",
+      "Bash(xargs:*)",
+      "Bash(ssh:*)",
+      "Bash(ssh-add:*)",
+      "Bash(brew install:*)",
+      "Bash(git lfs install:*)",
+      "Bash(git lfs track:*)",
+      "Bash(git reset:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(git lfs ls-files:*)",
+      "Bash(npm install:*)",
+      "Bash(wrangler r2 bucket:*)",
+      "Bash(wrangler whoami:*)",
+      "Bash(wrangler zones list:*)",
+      "Bash(wrangler r2 object put:*)",
+      "Bash(curl:*)",
+      "Bash(wrangler r2 object list:*)",
+      "Bash(/tmp/upload_images.sh:*)",
+      "Bash(wrangler r2 object get:*)",
+      "Bash(/tmp/update_image_urls.sh)",
+      "Bash(git lfs:*)",
+      "Bash(git checkout:*)",
+      "Bash(lsof:*)",
+      "Bash(git count-objects:*)"
+    ]
+  }
+}

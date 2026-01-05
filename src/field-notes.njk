@@ -1,0 +1,52 @@
+---
+layout: base
+pagination:
+  data: collections.fieldNotes
+  size: 12
+  reverse: true
+  alias: notes
+permalink: "/field-notes/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+
+<div class="field-notes-container">
+    <h1>Field Notes</h1>
+
+    {% if notes.length %}
+        <ul class="field-notes-list">
+        {% for note in notes %}
+            <li class="field-note-item">
+                {% if note.data.featuredImage %}
+                <div class="field-note-image">
+                    <a href="{{ note.url }}">
+                        {% featuredImage note.data.featuredImage, note.data.title %}
+                    </a>
+                </div>
+                {% endif %}
+                <time class="field-note-meta-date">{{ note.date | dateToFormat('MMM yyyy') }}</time>
+                <h3 class="field-note-title">
+                    <a href="{{ note.url }}">{{ note.data.title }}</a>
+                    {% if note.data.subtitle %}
+                    <span class="field-note-title-subtitle">{{ note.data.subtitle }}</span>
+                    {% endif %}
+                </h3>
+            </li>
+        {% endfor %}
+        </ul>
+
+        {% if pagination.href.previous or pagination.href.next %}
+        <nav class="pagination" aria-label="Pagination">
+            {% if pagination.href.previous %}
+                <a href="{{ pagination.href.previous }}" class="pagination-link pagination-prev">← Newer posts</a>
+            {% endif %}
+
+            <span class="pagination-info">Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}</span>
+
+            {% if pagination.href.next %}
+                <a href="{{ pagination.href.next }}" class="pagination-link pagination-next">Older posts →</a>
+            {% endif %}
+        </nav>
+        {% endif %}
+    {% else %}
+        <p>No field notes yet.</p>
+    {% endif %}
+</div>

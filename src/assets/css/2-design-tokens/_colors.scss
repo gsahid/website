@@ -1,0 +1,53 @@
+:root {
+    /* Warm, muted color palette from german-news-reader */
+    --textColor: #1a1611;
+    --textColorLight: #3c2a21;
+    --textColorLighter: #6b5b73;
+    --textColorSubtle: #9b8c8c;
+    --primaryColor: #1a1611;
+    --primaryColorLight: #3c2a21;
+    --secondaryColor: #6b5b73;
+    --accentColor: #8b4513;
+    --focusColor: #8b4513;
+    --backgroundColor: #faf7f2;
+    --backgroundColorAlt: #f5f2ed;
+    --backgroundWarm: #faf7f2;
+    --borderColor: #d4c4b0;
+    --borderColorLight: #e5d9c9;
+
+    /* Legacy color variables for backward compatibility */
+    --terracottaColor: #cd6133;
+    --forestColor: #4a5d23;
+    --indigoColor: #2c3e50;
+    --soganColor: #b8860b;
+}
+
+// Dark color scheme
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-mode: 'dark';
+    }
+
+    :root:not([data-user-color-scheme]) {
+        --textColor: #e8e3dc;
+        --textColorLight: #d1c7b8;
+        --textColorLighter: #a8998f;
+        --textColorSubtle: #736660;
+        --primaryColor: #e8e3dc;
+        --primaryColorLight: #d1c7b8;
+        --secondaryColor: #a8998f;
+        --accentColor: #d4a574;
+        --focusColor: #d4a574;
+        --backgroundColor: #0f0e0d;
+        --backgroundColorAlt: #1a1918;
+        --backgroundWarm: #151413;
+        --borderColor: #3a332b;
+        --borderColorLight: #2d2621;
+
+        /* Legacy color variables for dark mode */
+        --terracottaColor: #e17b47;
+        --forestColor: #5a6b2d;
+        --indigoColor: #34495e;
+        --soganColor: #daa520;
+    }
+}

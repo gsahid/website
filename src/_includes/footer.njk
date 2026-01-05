@@ -1,0 +1,5 @@
+<footer class="site-footer" role="contentinfo">
+    {% if page.url and page.url.startsWith('/field-notes/') %}
+    <a href="/field-notes/feed.xml" class="footer-rss-link" title="Subscribe to Field Notes RSS feed">RSS</a>
+    {% endif %}
+</footer>

@@ -1,0 +1,28 @@
+---
+permalink: /field-notes/feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Field Notes - {{ meta.title }}</title>
+  <subtitle>Travel journals and hiking adventures</subtitle>
+  <link href="{{ meta.url }}/field-notes/feed.xml" rel="self"/>
+  <link href="{{ meta.url }}/field-notes/"/>
+  <updated>{{ collections.fieldNotes | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ meta.url }}/field-notes/</id>
+  <author>
+    <name>{{ meta.author }}</name>
+  </author>
+  {%- for post in collections.fieldNotes | reverse %}
+  {%- set absolutePostUrl = post.url | absoluteUrl(meta.url) %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html"><![CDATA[
+      {{ post.templateContent | safe }}
+    ]]></content>
+  </entry>
+  {%- endfor %}
+</feed>

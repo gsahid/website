@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    line-height: var(--line-height-base);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -0.02em;
+    margin: 0 0 0.75em 0;
+}
+
+h1 {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-tight);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+}
+
+h3 {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+}
+
+h4 {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h5 {
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+h6 {
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+code, pre, .mono {
+    font-family: var(--font-mono);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-normal);
+}
+
+.text-large {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-relaxed);
+}
+
+.text-small {
+    font-size: var(--font-size-sm);
+}

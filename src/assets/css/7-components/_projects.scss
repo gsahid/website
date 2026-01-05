@@ -1,0 +1,77 @@
+.projects-list {
+    max-width: 800px;
+    margin: 2rem 0;
+}
+
+.project-item {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--borderColorLight);
+    
+    &:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+}
+
+.project-title {
+    margin: 0 0 0.75rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.3;
+    
+    a {
+        color: var(--textColor);
+        text-decoration: none;
+        
+        &:hover {
+            color: var(--primaryColor);
+            text-decoration: underline;
+        }
+    }
+}
+
+.project-description {
+    margin: 0 0 1rem 0;
+    color: var(--textColor);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.project-tech {
+    margin-bottom: 1rem;
+    
+    .tech-tag {
+        display: inline-block;
+        background-color: var(--backgroundColorAlt);
+        color: var(--textColorLight);
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.875rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.25rem;
+        border: 1px solid var(--borderColor);
+    }
+}
+
+.project-links {
+    margin-bottom: 0.75rem;
+    
+    .project-link {
+        display: inline-block;
+        color: var(--primaryColor);
+        text-decoration: none;
+        margin-right: 1rem;
+        font-size: 0.925rem;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.project-status {
+    font-size: 0.875rem;
+    color: var(--textColorLight);
+    font-style: italic;
+}

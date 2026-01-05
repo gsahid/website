@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": "slow-reader",
+      "title": "Slow Reader",
+      "description": "A web app to help you read slower",
+      "links": {
+        "demo": "https://example.com/slow-reader",
+        "github": "https://github.com/example/slow-reader"
+      }
+    },
+    {
+      "id": "street-lingo",
+      "title": "Street Lingo",
+      "description": "Learn Indonesian slang and street language through interactive exercises",
+      "links": {
+        "demo": "https://example.com/street-lingo",
+        "github": "https://github.com/example/street-lingo"
+      }
+    }
+  ]
+}

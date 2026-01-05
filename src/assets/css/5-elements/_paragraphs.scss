@@ -1,0 +1,11 @@
+p {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    margin-bottom: 1.25em;
+}
+
+span.marker {
+    box-shadow: inset 0 -14px 0 0 rgb(255, 236, 158);
+    line-height: 0.6;
+    display: inline-block;
+}

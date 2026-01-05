@@ -1,0 +1,363 @@
+{
+  "sketches": [
+    {
+      "id": "sketch-budapest-2024",
+      "location": "Budapest, Hungary", 
+      "latitude": 47.4813274,
+      "longitude": 18.9654962,
+      "date": "2024-06-08",
+      "images": [
+        {
+          "path": "/assets/images/sketches/IMG_0134.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_0151.JPG", 
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        }
+      ]
+    },
+    {
+      "id": "sketch-prague-2022",
+      "location": "Prague, Czech Republic",
+      "latitude": 50.0755,
+      "longitude": 14.4378,
+      "date": "2022-10-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/IMG_2441.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2452.JPG",
+          "title": "Sketch Title Here", 
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2454.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2465.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2504.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2537.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2554.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2623.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2635.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2649.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2656.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2665.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2677.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2685.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2699.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2718.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2742.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2743.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2750.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2812.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2814.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2823.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2829.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2874.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        }
+      ]
+    },
+    {
+      "id": "sketch-edinburgh-2021",
+      "location": "Edinburgh, Scotland",
+      "latitude": 55.9533,
+      "longitude": -3.1883,
+      "date": "2021-11-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/IMG_5944.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_6158.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_6287.JPG",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        }
+      ]
+    },
+    {
+      "id": "sketch-singapore-2020",
+      "location": "Singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "date": "2020-09-19",
+      "images": [
+        {
+          "path": "/assets/images/sketches/IMG_4131.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4132.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4133.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4134.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4137.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4138.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4139.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4140.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4142.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4143.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4144.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4145.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4147.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4149.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4150.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4152.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4153.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4155.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4156.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4157.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4158.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4160.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_4161.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        }
+      ]
+    },
+    {
+      "id": "sketch-prague-2019",
+      "location": "Prague, Czech Republic",
+      "latitude": 50.0755,
+      "longitude": 14.4378,
+      "date": "2019-08-24",
+      "images": [
+        {
+          "path": "/assets/images/sketches/09554975-25CC-417C-883A-870B32CED023.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/C32FDBB5-BE4A-4BFE-930C-BC08B0B567A0.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2316.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        }
+      ]
+    },
+    {
+      "id": "sketch-amsterdam-2019",
+      "location": "Amsterdam, Netherlands",
+      "latitude": 52.3676,
+      "longitude": 4.9041,
+      "date": "2019-10-24",
+      "images": [
+        {
+          "path": "/assets/images/sketches/7D19BA84-6C87-4680-96AB-A11CFFDE9AC9.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/A1516FC5-C2C7-48D5-9EF5-12DBC2F16519.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2598(1).jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2599.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2601(2).jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        },
+        {
+          "path": "/assets/images/sketches/IMG_2627.jpg",
+          "title": "Sketch Title Here",
+          "description": "Add your description"
+        }
+      ]
+    }
+  ]
+}

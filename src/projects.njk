@@ -1,0 +1,39 @@
+---
+layout: base
+permalink: /projects/
+eleventyNavigation:
+  key: Projects
+  order: 3
+---
+
+<div class="container">
+    <h1>Projects</h1>
+    
+    <div class="projects-list">
+        {% if projects.projects.length %}
+            {% for project in projects.projects %}
+                <article class="project-item">
+                    <h3 class="project-title">
+                        {% if project.links.demo %}
+                            <a href="{{ project.links.demo }}" target="_blank" rel="noopener">{{ project.title }}</a>
+                        {% else %}
+                            {{ project.title }}
+                        {% endif %}
+                    </h3>
+                    <p class="project-description">{{ project.description }}</p>
+                    
+                    <div class="project-links">
+                        {% if project.links.github %}
+                            <a href="{{ project.links.github }}" class="project-link" target="_blank" rel="noopener">GitHub</a>
+                        {% endif %}
+                        {% if project.links.demo %}
+                            <a href="{{ project.links.demo }}" class="project-link" target="_blank" rel="noopener">Demo</a>
+                        {% endif %}
+                    </div>
+                </article>
+            {% endfor %}
+        {% else %}
+            <p>No projects yet.</p>
+        {% endif %}
+    </div>
+</div>

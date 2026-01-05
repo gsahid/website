@@ -1,0 +1,493 @@
+// ============================================
+// Field Notes Listing Page
+// ============================================
+
+.field-notes-container {
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    h1 {
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+}
+
+.field-notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.field-note-item {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--borderColorLight);
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.field-note-image {
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+    border-radius: 4px;
+
+    a {
+        display: block;
+        text-decoration: none;
+        border-bottom: none !important;
+        background-color: transparent !important;
+
+        &::before {
+            content: none !important;
+            display: none !important;
+        }
+
+        &:hover {
+            opacity: 0.9;
+            background-color: transparent !important;
+            border-bottom: none !important;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+.field-note-date {
+    display: block;
+    color: var(--textColorLight);
+    margin-bottom: 0.5rem;
+    font-family: var(--font-serif);
+    letter-spacing: 0.05em;
+    font-size: var(--font-size-sm);
+}
+
+.field-note-title {
+    margin: 0;
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    line-height: 1.3;
+
+    a {
+        color: var(--textColor) !important;
+        text-decoration: none !important;
+        font-style: normal !important;
+        border-bottom: none !important;
+        background-color: transparent !important;
+        font-family: var(--font-sans);
+
+        &::before {
+            content: none !important;
+            display: none !important;
+        }
+
+        &:hover {
+            color: var(--accentColor) !important;
+            background-color: transparent !important;
+            border-bottom: none !important;
+        }
+    }
+}
+
+.field-note-title-subtitle {
+    color: var(--textColorSubtle);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    margin-left: 0.5rem;
+}
+
+// ============================================
+// Individual Field Note Post
+// ============================================
+
+.field-note-article {
+    // No top-level container - allows content to break out
+}
+
+.field-note-header {
+    text-align: center;
+    padding: 5rem 2rem 4rem;
+    margin-bottom: 4rem;
+    max-width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field-note-heading {
+    margin: 0 0 1rem 0;
+    font-size: var(--font-size-2xl);
+    line-height: 1.2;
+    color: var(--textColor);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.field-note-subtitle {
+    margin: 0 0 1rem 0;
+    font-size: var(--font-size-2xl);
+    font-family: var(--font-sans);
+    line-height: 1.0;
+    color: var(--textColorSubtle);
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.field-note-meta-date {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: var(--font-size-base);
+    color: var(--textColorSubtle);
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+// ============================================
+// Content Area - Wide Layout
+// ============================================
+
+.field-note-content {
+    // Base text content constrained
+
+    > p,
+    > h2,
+    > h3,
+    > h4,
+    > h5,
+    > h6,
+    > ul,
+    > ol,
+    > blockquote {
+        max-width: 670px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    > p {
+        font-size: var(--font-size-lg);
+        line-height: var(--line-height-relaxed);
+        margin-bottom: 1.5rem;
+        color: var(--textColor);
+    }
+
+    > h2 {
+        font-size: var(--font-size-2xl);
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+
+        a {
+            border-bottom: none !important;
+            background-color: transparent !important;
+            font-style: normal !important;
+
+            &::before {
+                content: none !important;
+                display: none !important;
+            }
+
+            &:hover {
+                background-color: transparent !important;
+            }
+        }
+    }
+
+    > h3 {
+        font-size: var(--font-size-xl);
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+
+        a {
+            border-bottom: none !important;
+            background-color: transparent !important;
+            font-style: normal !important;
+
+            &::before {
+                content: none !important;
+                display: none !important;
+            }
+
+            &:hover {
+                background-color: transparent !important;
+            }
+        }
+    }
+
+    // Style for links within paragraphs
+    p a {
+        font-style: normal !important;
+
+        &::before {
+            content: none !important;
+            display: none !important;
+        }
+    }
+}
+
+// ============================================
+// Full-Width Image Breakout
+// ============================================
+
+.field-note-figure {
+    max-width: 1200px;
+    width: 100%;
+    margin: 3rem auto;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    picture {
+        display: block;
+        line-height: 0; // Remove gap below image
+    }
+
+    figcaption {
+        max-width: 670px;
+        margin: 1rem auto 0;
+        padding: 0 2rem;
+        font-size: var(--font-size-sm);
+        color: var(--textColorLight);
+        font-style: italic;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+
+// ============================================
+// Prev/Next Navigation
+// ============================================
+
+.field-note-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 6rem;
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid var(--borderColorLight);
+}
+
+.field-note-nav-prev {
+    flex: 1;
+    text-align: left;
+}
+
+.field-note-nav-next {
+    flex: 1;
+    text-align: right;
+}
+
+.field-note-nav-link {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-decoration: none !important;
+    color: var(--textColor) !important;
+    border-bottom: none !important;
+    background-color: transparent !important;
+    font-style: normal !important;
+
+    &::before {
+        content: none !important;
+        display: none !important;
+    }
+
+    &:hover {
+        background-color: transparent !important;
+        border-bottom: none !important;
+
+        .field-note-nav-label {
+            color: var(--accentColor) !important;
+        }
+
+        .field-note-nav-title {
+            color: var(--accentColor) !important;
+        }
+    }
+}
+
+.field-note-nav-label {
+    font-size: var(--font-size-sm);
+    color: var(--textColorSubtle);
+    font-family: var(--font-sans);
+    font-weight: 400;
+}
+
+.field-note-nav-title {
+    font-size: var(--font-size-lg);
+    color: var(--textColor);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+// ============================================
+// Footer Navigation
+// ============================================
+
+.field-note-footer {
+    margin-top: 2rem;
+    padding: 2rem 2rem 4rem;
+    text-align: center;
+    max-width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-link {
+    color: var(--textColor) !important;
+    text-decoration: none !important;
+    font-family: var(--font-sans);
+    font-style: normal !important;
+    display: inline-flex;
+    align-items: center;
+
+    &::before {
+        content: none !important;
+        display: none !important;
+    }
+
+    &:hover {
+        color: var(--accentColor) !important;
+    }
+}
+
+// ============================================
+// Pagination
+// ============================================
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--borderColorLight);
+    margin-bottom: 4rem;
+}
+
+.pagination-link {
+    color: var(--textColor) !important;
+    text-decoration: none !important;
+    font-size: var(--font-size-base);
+    font-style: normal !important;
+    font-family: var(--font-sans);
+    border-bottom: none !important;
+    background-color: transparent !important;
+
+    &::before {
+        content: none !important;
+        display: none !important;
+    }
+
+    &:hover {
+        color: var(--accentColor) !important;
+        background-color: transparent !important;
+        border-bottom: none !important;
+    }
+}
+
+.pagination-info {
+    font-size: var(--font-size-sm);
+    color: var(--textColorLight);
+    font-family: var(--font-sans);
+}
+
+// ============================================
+// Responsive Adjustments
+// ============================================
+
+@media (max-width: 768px) {
+    .field-notes-container {
+        padding: 0 1.5rem;
+    }
+
+    .pagination {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .pagination-prev,
+    .pagination-next {
+        width: 100%;
+    }
+
+    .field-note-header {
+        padding: 3rem 1.5rem 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .field-note-heading {
+        font-size: var(--font-size-2xl);
+    }
+
+    .field-note-subtitle {
+        font-size: var(--font-size-xl);
+    }
+
+    .field-note-content {
+        > p,
+        > h2,
+        > h3,
+        > h4,
+        > h5,
+        > h6,
+        > ul,
+        > ol,
+        > blockquote {
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+
+        > p {
+            font-size: var(--font-size-base);
+        }
+    }
+
+    .field-note-figure {
+        margin: 2rem auto;
+
+        figcaption {
+            padding: 0 1.5rem;
+            margin-top: 0.75rem;
+        }
+    }
+
+    .field-note-navigation {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1.5rem;
+        margin-top: 4rem;
+    }
+
+    .field-note-nav-prev,
+    .field-note-nav-next {
+        text-align: left;
+    }
+
+    .field-note-footer {
+        margin-top: 2rem;
+        padding: 2rem 1.5rem 3rem;
+    }
+}

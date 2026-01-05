@@ -1,0 +1,2232 @@
+{
+  "sketches": [
+    {
+      "id": "sketch-alhambra",
+      "location": "Alhambra, Granada, Spain",
+      "latitude": 37.1761,
+      "longitude": -3.5881,
+      "date": "2014-06-01",
+      "images": [
+        {
+          "path": "/assets/images/sketches/alhambra.jpg",
+          "title": "Alhambra Palace"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-barista-coffee",
+      "location": "Ambon, Indonesia",
+      "latitude": -3.6952306,
+      "longitude": 128.1766239,
+      "date": "2022-10-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon-barista-coffee.JPG",
+          "title": "Barista Coffee Cafe",
+          "description": "The cafe owner saw me sketching and I gave this sketch to her. :)"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-fort-amsterdam",
+      "location": "Ambon, Indonesia",
+      "latitude": 3.5828628,
+      "longitude": 128.0805646,
+      "date": "2022-10-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon-fort-amsterdam.JPG",
+          "title": "Fort Amsterdam"
+        },
+        {
+          "path": "/assets/images/sketches/ambon-fort-amsterdam-2.JPG",
+          "title": "Fort Amsterdam view 2"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-gereja-immanuel",
+      "location": "Ambon, Indonesia",
+      "latitude": -3.7001925,
+      "longitude": 128.12918349,
+      "date": "2022-10-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon-gereja-immanuel.JPG",
+          "title": "Gereja Immanuel"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-gereja-maranatha",
+      "location": "Ambon, Indonesia",
+      "latitude": -3.6999552,
+      "longitude": 128.0764801,
+      "date": "2022-10-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon-gereja-maranatha.JPG",
+          "title": "Gereja Maranatha"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-masjid",
+      "location": "Ambon, Indonesia",
+      "latitude": -3.5851757,
+      "longitude": 128.0793438,
+      "date": "2022-10-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon-masjid.JPG",
+          "title": "Masjid Tua Wapauwe"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-pantai-natsepa",
+      "location": "Ambon, Indonesia",
+      "latitude": -3.6177,
+      "longitude": 128.2625,
+      "date": "2022-10-24",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon-pantai-natsepa.JPG",
+          "title": "Pantai Natsepa Beach"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-sibu-sibu",
+      "location": "Ambon, Indonesia",
+      "latitude": -3.6969045,
+      "longitude": 128.1793022,
+      "date": "2022-10-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon-sibu-sibu.JPG",
+          "title": "Cafe Sibu-sibu 02"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-street",
+      "location": "Ambon, Indonesia",
+      "latitude": -3.6952306,
+      "longitude": 128.1766239,
+      "date": "2022-10-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon-street.JPG",
+          "title": "Street scene in Ambon"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-taman-pattimura",
+      "location": "Ambon, Indonesia",
+      "latitude": -3.6930437,
+      "longitude": 128.1810918,
+      "date": "2022-10-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon-taman-pattimura.JPG",
+          "title": "Taman Pattimura"
+        }
+      ]
+    },
+    {
+      "id": "sketch-ambon-general",
+      "location": "Ambon, Indonesia",
+      "latitude": -3.6952306,
+      "longitude": 128.1766239,
+      "date": "2022-10-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/ambon.JPG",
+          "title": "Ambon"
+        }
+      ]
+    },
+    {
+      "id": "sketch-amsterdam-cafe",
+      "location": "Amsterdam, Netherlands",
+      "latitude": 52.3626072,
+      "longitude": 4.8598743,
+      "date": "2023-11-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/amsterdam-cafe.JPG",
+          "title": "Sketching at Trakteren"
+        }
+      ]
+    },
+    {
+      "id": "sketch-amsterdam-canal",
+      "location": "Amsterdam, Netherlands",
+      "latitude": 52.3720055,
+      "longitude": 4.8734082,
+      "date": "2023-04-02",
+      "images": [
+        {
+          "path": "/assets/images/sketches/amsterdam-canal.JPG",
+          "title": "Herengracht"
+        }
+      ]
+    },
+    {
+      "id": "sketch-amsterdam-general",
+      "location": "Amsterdam, Netherlands",
+      "latitude": 52.3676,
+      "longitude": 4.9041,
+      "date": "2010-06-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/amsterdam.jpg",
+          "title": "Boat in Amsterdam"
+        }
+      ]
+    },
+    {
+      "id": "sketch-angkor-wat-1",
+      "location": "Siem Reap, Cambodia",
+      "latitude": 13.4347993,
+      "longitude": 103.8867292,
+      "date": "2019-03-29",
+      "images": [
+        {
+          "path": "/assets/images/sketches/angkor-wat-1.jpg",
+          "title": "Ta Prohm"
+        },
+        {
+          "path": "/assets/images/sketches/angkor-wat-7.jpg",
+          "title": "Inside the Ta Prohm complex"
+        }
+      ]
+    },
+    {
+      "id": "sketch-angkor-wat-2",
+      "location": "Siem Reap, Cambodia",
+      "latitude": 13.4238632,
+      "longitude": 103.8535167,
+      "date": "2019-03-29",
+      "images": [
+        {
+          "path": "/assets/images/sketches/angkor-wat-2.jpg",
+          "title": "Phnom Bakheng"
+        },
+        {
+          "path": "/assets/images/sketches/angkor-wat-8.jpg",
+          "title": "Phnom Bakheng"
+        }
+      ]
+    },
+    {
+      "id": "sketch-angkor-wat-3",
+      "location": "Siem Reap, Cambodia",
+      "latitude": 13.4299547,
+      "longitude": 103.8959379,
+      "date": "2019-03-29",
+      "images": [
+        {
+          "path": "/assets/images/sketches/angkor-wat-3.jpg",
+          "title": "Banteay Kdei"
+        }
+      ]
+    },
+    {
+      "id": "sketch-angkor-wat-4",
+      "location": "Siem Reap, Cambodia",
+      "latitude": 13.4124745,
+      "longitude": 103.8644108,
+      "date": "2019-03-29",
+      "images": [
+        {
+          "path": "/assets/images/sketches/angkor-wat-4.jpg",
+          "title": "Angkor Wat ancient ruins"
+        }
+      ]
+    },
+    {
+      "id": "sketch-angkor-wat-5",
+      "location": "Angkor Wat, Siem Reap, Cambodia",
+      "latitude": 13.4124745,
+      "longitude": 103.8644108,
+      "date": "2019-03-29",
+      "images": [
+        {
+          "path": "/assets/images/sketches/angkor-wat-5.jpg",
+          "title": "Southern Angkor Pagoda"
+        }
+      ]
+    },
+    {
+      "id": "sketch-angkor-wat-6",
+      "location": "Angkor Wat, Siem Reap, Cambodia",
+      "latitude": 13.4632662,
+      "longitude": 103.8922481,
+      "date": "2019-03-29",
+      "images": [
+        {
+          "path": "/assets/images/sketches/angkor-wat-6.jpg",
+          "title": "Neak Pean"
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-biella",
+      "location": "Cortina d'Ampezzo, Italy",
+      "latitude": 46.665647,
+      "longitude": 12.0820905,
+      "date": "2024-09-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-biella.JPG",
+          "title": "Overlooking Rifugio Biella",
+          "description": "I stayed in huts (rifugios) throughout my Alta Via 1 hike. Depending on the route that day, I’d arrive at anytime between lunch and late afternoon. There is plenty to do in the rifugio, most people would chat with other hikers, play cards or board games. Meanwhile for me when not chatting with other hikers, I’d spend my time painting or reading. On the first day, I stayed in Rifugio Biella. As much as I would have loved to sketch outdoors, we happened to have a snowstorm the night before, so it was really cold when I got there, so I decided to sketch mountains from the comfort of the rifugio instead while enjoying two(!) cups of hot chocolate."
+        },
+        {
+          "path": "/assets/images/sketches/av1-biella-2.JPG",
+          "title": "Inside Rifugio Biella",
+          "description": "I would have loved to sketch outdoors, but unfortunately it was too cold! I decided to take a picture and sketch in the rifugio instead. I saw this unreal landscape after a 4 hour grueling, icy hike from Lago di Braies to Rifugio Biella. Normally this landscape would have been dominated by greens, but because of the snowstorm the day before, everything turned into white. One of the staff at the rifugio saw me painting and joked if they could keep it. I thought why not and decided to paint them another one."
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-citta-di-fiume",
+      "location": "Loc Malga Durona, Italy",
+      "latitude": 46.4368589,
+      "longitude": 12.1200356,
+      "date": "2024-09-19",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-citta-di-fiume.JPG",
+          "title": "Rifugio Città di Fiume",
+          "description": "Fifth day on the trail and it was a loooong day—made it to the hut at 5 because I accidentally took the difficult route that required a lot of hands on scrambling, got my feet sucked into the mud and encountered some hails and rain along the way. Surprisingly I still had a little bit of energy to sketch before dinner :)"
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-cortina",
+      "location": "Cortina d'Ampezzo, Italy",
+      "latitude": 46.5369,
+      "longitude": 12.1357,
+      "date": "2024-09-14",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-cortina.JPG",
+          "title": "Cortina d'Ampezzo mountains"
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-fanes",
+      "location": "Fanes Natural Park, Italy",
+      "latitude": 46.6121946,
+      "longitude": 12.0116257,
+      "date": "2024-09-16",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-fanes.JPG",
+          "title": "Ücia Rifugio Fanes",
+          "description": "Still lots of snow in today’s hike, but at least I got to use some greens when sketching this view in front of Rifugio Fanes, my second rifugio on the trail. It was a long day so I didn’t have a lot of time to sketch, but was pretty happy I got to sketch outside today!"
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-lake",
+      "location": "Prags, Italy",
+      "latitude": 46.6947179,
+      "longitude": 12.0792337,
+      "date": "2024-09-14",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-lake.JPG",
+          "title": "Lago di Braies",
+          "description": "This is the starting point of the Alta Via 1 trail, if you’re hiking north to south. The day before, I visited Lago di Braies to sketch. It was unusually chilly and I noticed the snow-capped peaks in the distance… little did I know just how much snow I’d soon be trekking through the next few days!"
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-lake-2",
+      "location": "Dolomites, Italy",
+      "latitude": 46.5117109,
+      "longitude": 12.0203756,
+      "date": "2024-09-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-lake-2.JPG",
+          "title": "Lago Limides",
+          "description": "I haven’t been able to sketch on the trail up until this day because the weather was unpredictable, and I had to make sure that I arrive in my next hut before the forecasted rain. However today was an exception—the weather was clear, no rain was forecasted, and I also happened to have a rather short day (+- 12 km) with an okay-ish elevation gain and loss, so I thought I could just put down my backpack and hiking poles, chill for a bit, and do a quick sketch."
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-nuvolau-outside",
+      "location": "Monte Nuvolau, Italy",
+      "latitude": 46.4951787,
+      "longitude": 12.0432146,
+      "date": "2024-09-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-nuvolau-outside.JPG",
+          "title": "Rifugio Nuvolau exterior view",
+          "description": "Sketching the first ever rifugio in the Dolomites, built in the 1883 🗻 it’s hard to pick favorites but this is definitely one of my favorite rifugios I’ve stayed in—phenomenal location, very lovely staff, and amazing food!"
+        },
+        {
+          "path": "/assets/images/sketches/av1-nuvolau.JPG",
+          "title": "Inside the cafe in Rifugio Nuvolau",
+          "description": "Sketching at the bar while waiting for check in :)"
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-passo-duran",
+      "location": "Passo Duran, Italy",
+      "latitude": 46.3241334,
+      "longitude": 12.0927053,
+      "date": "2024-09-22",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-passo-duran.JPG",
+          "title": "Rifugio Passo Duran Cesare Tomè",
+          "description": "Day 8 on the trail of Alta Via 1 🏔️ the hike is drawing to a close and although today I was at a lower elevation compared to the first few days, there were still some tough sections. Today felt especially long because I got lost among the boulders, slipped a couple of times and bumped my left knee into a huge rock. At some point I felt like giving up. But then I thought: what’s 2 more days? I decided to keep walking and eventually I made it to Rifugio Passo Duran C. Tomè, where I spent the afternoon doing a little sketch, reviewing next day’s trail and weather forecast with other hikers. The next day was supposed to be even tougher and longer with a chance of thunderstorm, and everyone in the hut was quite nervous about it…"
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-pian",
+      "location": "Longarone, Italy",
+      "latitude": 46.261888,
+      "longitude": 12.1738061,
+      "date": "2024-09-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-pian.JPG",
+          "title": "Rifugio Pian de Fontana",
+          "description": "Last sketch from Alta Via 1 🏔️ gotta be honest, I did this in quite a hurry. It was my longest day yet—23 km in total—where in the last section I had to ascend for 5 km straight, cross a ridge that was exposed in both sides before eventually making another constant descent of 5 km on loose rocks followed by a narrow and steep trail that was marked by a signage as a “difficult” trail, all while hurrying to avoid the thunderstorm. The number of times I actually slipped was embarrassing. The moment I stepped into my hut, it started raining heavily, and there was a thunderstorm throughout the night. But I also felt proud of myself because after all the snow, hails, and rain, I never thought I’d actually make it this far! "
+        }
+      ]
+    },
+    {
+      "id": "sketch-av1-vazooler",
+      "location": "Vazzoler, Italy",
+      "latitude": 46.3541416,
+      "longitude": 12.028552,
+      "date": "2024-09-21",
+      "images": [
+        {
+          "path": "/assets/images/sketches/av1-vazooler.JPG",
+          "title": "Rifugio Mario Vazzoler",
+          "description": "Lower elevation this time, started seeing more and more greens 🍃 seventh day on the trail! This is Rifugio Vazzoler and I sketched the hut from the alpine herbs garden across the street. I honestly couldn’t believe I’d make it this far especially that I set off on this journey by myself and the first few days were especially so tough. But I met so many kind and nice people along the way who would hike some parts with me or whom I’d share lovely breakfast and dinner with, and we’d cheer for each other despite having to part ways at the end :)"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bali-5",
+      "location": "Bali, Indonesia",
+      "latitude": -8.3405,
+      "longitude": 115.0920,
+      "date": "2015-08-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bali-5.png",
+          "title": "Bali landscape"
+        },
+        {
+          "path": "/assets/images/sketches/bali.jpg",
+          "title": "Bali temple"
+        },
+        {
+          "path": "/assets/images/sketches/bali-3.jpg",
+          "title": "Bali traditional building"
+        },
+
+        {
+          "path": "/assets/images/sketches/bali-2.jpg",
+          "title": "Bali rice terraces"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bangkok-talad-noi",
+      "location": "Talad Noi, Bangkok, Thailand",
+      "latitude": 13.7416,
+      "longitude": 100.5047,
+      "date": "2023-02-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bangkok-talad-noi.JPG",
+          "title": "Talad Noi neighborhood"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bangkok-temple",
+      "location": "Bangkok, Thailand",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "date": "2023-02-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bangkok-temple.jpg",
+          "title": "Bangkok temple"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bangkok-temple-2",
+      "location": "Bangkok, Thailand",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "date": "2023-02-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bangkok-temple-2.JPG",
+          "title": "Bangkok temple"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bcn-parc-ciutadella",
+      "location": "Parc de la Ciutadella, Barcelona, Spain",
+      "latitude": 41.3888,
+      "longitude": 2.1868,
+      "date": "2022-06-05",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bcn-parc-ciutadella.PNG",
+          "title": "Parc de la Ciutadella"
+        }
+      ]
+    },
+    {
+      "id": "sketch-berlin-berliner-dom",
+      "location": "Berlin, Germany",
+      "latitude": 52.5200,
+      "longitude": 13.4050,
+      "date": "2023-03-04",
+      "images": [
+        {
+          "path": "/assets/images/sketches/berlin-berliner-dom.JPG",
+          "title": "Berliner Dom"
+        }
+      ]
+    },
+    {
+      "id": "sketch-berlin-muggelsee",
+      "location": "Kleiner Müggelsee, Berlin, Germany",
+      "latitude": 52.4299674,
+      "longitude": 13.6724928,
+      "date": "2025-06-29",
+      "images": [
+        {
+          "path": "/assets/images/sketches/berlin-muggelsee.JPG",
+          "title": "Kleiner Müggelsee"
+        }
+      ]
+    },
+    {
+      "id": "sketch-berlin-museum",
+      "location": "Berlin, Germany",
+      "latitude": 52.5305758,
+      "longitude": 13.3766006,
+      "date": "2023-04-05",
+      "images": [
+        {
+          "path": "/assets/images/sketches/berlin-museum.JPG",
+          "title": "Museum für Naturkunde"
+        }
+      ]
+    },
+    {
+      "id": "sketch-berlin-schoneberg",
+      "location": "Schöneberg, Berlin, Germany",
+      "latitude": 52.4861,
+      "longitude": 13.3486,
+      "date": "2020-09-17",
+      "images": [
+        {
+          "path": "/assets/images/sketches/berlin-schoneberg.JPG",
+          "title": "Flohmarkt at Rathaus Schöneberg"
+        }
+      ]
+    },
+    {
+      "id": "sketch-berlin-st-michaels-church",
+      "location": "Berlin, Germany",
+      "latitude": 52.5073598,
+      "longitude": 13.4168142,
+      "date": "2020-09-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/berlin-st-michaels-church.JPG",
+          "title": "St.-Michael-Kirche"
+        }
+      ]
+    },
+    {
+      "id": "sketch-berlin-tiergarten",
+      "location": "Tiergarten, Berlin, Germany",
+      "latitude": 52.5144,
+      "longitude": 13.3501,
+      "date": "2020-09-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/berlin-tiergarten.JPG",
+          "title": "Rosengarten at Tiergarten"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bintaro",
+      "location": "Bintaro, Indonesia",
+      "latitude": -6.2684,
+      "longitude": 106.7361,
+      "date": "2015-03-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bintaro.jpg",
+          "title": "Bintaro cafe"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bn-banda-besar",
+      "location": "Banda Besar, Banda Islands, Indonesia",
+      "latitude": -4.5403422,
+      "longitude": 129.8679562,
+      "date": "2023-10-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bn-banda-besar.JPG",
+          "title": "Banda Besar island"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bn-chinatown",
+      "location": "Banda Neira, Indonesia",
+      "latitude": -4.5261291,
+      "longitude": 129.8993103,
+      "date": "2023-10-17",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bn-chinatown.JPG",
+          "title": "Chinatown in Banda Neira"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bn-ferry",
+      "location": "Banda Sea, Indonesia",
+      "latitude": -5.1489014,
+      "longitude": 129.4245029,
+      "date": "2023-10-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bn-ferry.JPG",
+          "title": "Ferry to Banda Islands"
+        },
+        {
+          "path": "/assets/images/sketches/bn-ferry-2.JPG",
+          "title": "Ferry view 2"
+        },
+        {
+          "path": "/assets/images/sketches/bn-ferry-3.JPG",
+          "title": "Ferry deck view"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bn-fort-belgica",
+      "location": "Banda Neira, Indonesia",
+      "latitude": -4.5261236,
+      "longitude": 129.8940369,
+      "date": "2023-10-17",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bn-fort-belgica.JPG",
+          "title": "Fort Belgica"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bn-nggapulu",
+      "location": "Banda Sea, Indonesia",
+      "latitude": -4.0649376,
+      "longitude": 129.4913421,
+      "date": "2023-10-19",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bn-nggapulu.JPG",
+          "title": "Overnight trip on the KM Nggapulu",
+          "description": "Overnight trip from Banda Neira back to Ambon"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bn-pulau-ai",
+      "location": "Pulau Ai, Indonesia",
+      "latitude": -4.527525,
+      "longitude": 129.7634724,
+      "date": "2023-10-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bn-pulau-ai.JPG",
+          "title": "Pulau Ai island"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bn-pulau-rhun",
+      "location": "Pulau Run, Indonesia",
+      "latitude": -4.5533072,
+      "longitude": 129.6704969,
+      "date": "2023-10-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bn-pulau-rhun.JPG",
+          "title": "Pulau Run island"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bn-rumah-budaya-niera",
+      "location": "Banda Neira, Indonesia",
+      "latitude": -4.5256878,
+      "longitude": 129.8948899,
+      "date": "2023-10-17",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bn-rumah-budaya-niera.JPG",
+          "title": "Rumah Budaya Neira"
+        }
+      ]
+    },
+    {
+      "id": "sketch-bn-the-nutmeg-tree",
+      "location": "Banda Neira, Indonesia",
+      "latitude": -4.5234325,
+      "longitude": 129.8954783,
+      "date": "2023-10-17",
+      "images": [
+        {
+          "path": "/assets/images/sketches/bn-the-nutmeg-tree.JPG",
+          "title": "The Nutmeg Tree cafe"
+        }
+      ]
+    },
+    {
+      "id": "sketch-budapest-masolit",
+      "location": "Budapest, Hungary",
+      "latitude": 47.4813274,
+      "longitude": 18.9654962,
+      "date": "2024-06-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/budapest-masolit.JPG",
+          "title": "Masolit Books and Cafe",
+          "description": "Morning sketch at the cafe"
+        }
+      ]
+    },
+    {
+      "id": "sketch-budapest-parliament",
+      "location": "Budapest, Hungary",
+      "latitude": 47.4813274,
+      "longitude": 18.9654962,
+      "date": "2024-06-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/budapest-parliament.JPG",
+          "title": "Hungarian Parliament",
+          "description": "Hungarian Parliament at night"
+        }
+      ]
+    },
+    {
+      "id": "sketch-budapest-view",
+      "location": "Budapest, Hungary",
+      "latitude": 47.5029458,
+      "longitude": 19.0237324,
+      "date": "2024-06-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/budapest-view.JPG",
+          "title": "Danube river"
+        }
+      ]
+    },
+    {
+      "id": "sketch-camino-padron",
+      "location": "Padrón, Spain",
+      "latitude": 42.7374692,
+      "longitude": -8.6625736,
+      "date": "2022-06-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/camino-padron.JPG",
+          "title": "Paseo Do Espolón"
+        }
+      ]
+    },
+    {
+      "id": "sketch-camino-ponte",
+      "location": "Ponte das Febres, Spain",
+      "latitude": 42.0818858,
+      "longitude": -8.64604,
+      "date": "2022-06-16",
+      "images": [
+        {
+          "path": "/assets/images/sketches/camino-ponte.JPG",
+          "title": "Ponte das Febres"
+        }
+      ]
+    },
+    {
+      "id": "sketch-camino-pontevedra",
+      "location": "Pontevedra, Spain",
+      "latitude": 42.430853,
+      "longitude": -8.6463238,
+      "date": "2022-06-14",
+      "images": [
+        {
+          "path": "/assets/images/sketches/camino-pontevedra.JPG",
+          "title": "Igrexa da Virxe Peregrina"
+        }
+      ]
+    },
+    {
+      "id": "sketch-camino-santa-marina",
+      "location": "Pontevedra, Spain",
+      "latitude": 42.1817662,
+      "longitude": -8.5632198,
+      "date": "2022-06-13",
+      "images": [
+        {
+          "path": "/assets/images/sketches/camino-santa-marina.JPG",
+          "title": "Igrexa Santa Mariña de Xinzo"
+        }
+      ]
+    },
+    {
+      "id": "sketch-camino-santiago",
+      "location": "Santiago de Compostela, Spain",
+      "latitude": 42.8805,
+      "longitude": -8.5456,
+      "date": "2022-06-17",
+      "images": [
+        {
+          "path": "/assets/images/sketches/camino-santiago.JPG",
+          "title": "Santiago de Compostela Cathedral"
+        }
+      ]
+    },
+    {
+      "id": "sketch-camino-valenca",
+      "location": "Valença, Portugal",
+      "latitude": 42.0267,
+      "longitude": -8.6400,
+      "date": "2022-06-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/camino-valenca.JPG",
+          "title": "Valença fortress"
+        }
+      ]
+    },
+    {
+      "id": "sketch-camino-vilaboa",
+      "location": "Vilaboa, Spain",
+      "latitude": 42.351708,
+      "longitude": -8.644136,
+      "date": "2022-06-12",
+      "images": [
+        {
+          "path": "/assets/images/sketches/camino-vilaboa.JPG",
+          "title": "O Puntal de Río Villil"
+        }
+      ]
+    },
+    {
+      "id": "sketch-cph-andersen-bakery",
+      "location": "Copenhagen, Denmark",
+      "latitude": 55.636666,
+      "longitude": 12.5803166,
+      "date": "2022-08-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/cph-andersen-bakery.JPG",
+          "title": "Andersen Bakery"
+        }
+      ]
+    },
+    {
+      "id": "sketch-cph-bakery",
+      "location": "Copenhagen, Denmark",
+      "latitude": 55.7061845,
+      "longitude": 12.5792403,
+      "date": "2022-08-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/cph-bakery.JPG",
+          "title": "Juno the bakery"
+        }
+      ]
+    },
+    {
+      "id": "sketch-cph-botanical-garden",
+      "location": "Copenhagen, Denmark",
+      "latitude": 55.6869,
+      "longitude": 12.5742,
+      "date": "2022-08-21",
+      "images": [
+        {
+          "path": "/assets/images/sketches/cph-botanical-garden.JPG",
+          "title": "Botanical Garden"
+        }
+      ]
+    },
+    {
+      "id": "sketch-cph-louisiana",
+      "location": "Louisiana Museum, Humlebæk, Denmark",
+      "latitude": 55.9686,
+      "longitude": 12.5394,
+      "date": "2022-08-22",
+      "images": [
+        {
+          "path": "/assets/images/sketches/cph-louisiana.JPG",
+          "title": "Louisiana Museum"
+        }
+      ]
+    },
+    {
+      "id": "sketch-cph-nyhavn",
+      "location": "Nyhavn, Copenhagen, Denmark",
+      "latitude": 55.6796,
+      "longitude": 12.5914,
+      "date": "2022-08-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/cph-nyhavn.JPG",
+          "title": "Nyhavn harbor"
+        }
+      ]
+    },
+    {
+      "id": "sketch-edinburgh-airport",
+      "location": "Edinburgh Airport, Scotland",
+      "latitude": 55.9500,
+      "longitude": -3.3725,
+      "date": "2018-07-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/edinburgh-airport.jpg",
+          "title": "Edinburgh Airport"
+        }
+      ]
+    },
+    {
+      "id": "sketch-edinburgh-castle",
+      "location": "Edinburgh, Scotland",
+      "latitude": 55.9533,
+      "longitude": -3.1883,
+      "date": "2018-07-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/edinburgh-castle.jpg",
+          "title": "Edinburgh Castle"
+        }
+      ]
+    },
+    {
+      "id": "sketch-edinburgh-general",
+      "location": "Edinburgh, Scotland",
+      "latitude": 55.9509877,
+      "longitude": -3.2011236,
+      "date": "2018-07-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/edinburgh.jpg",
+          "title": "Princes Street Gardens"
+        }
+      ]
+    },
+    {
+      "id": "sketch-figueres-dali-museum",
+      "location": "Figueres, Spain",
+      "latitude": 42.2681,
+      "longitude": 2.9614,
+      "date": "2014-05-21",
+      "images": [
+        {
+          "path": "/assets/images/sketches/figueres-dali-museum.jpg",
+          "title": "Dalí Theatre-Museum"
+        }
+      ]
+    },
+    {
+      "id": "sketch-galapagos-beach",
+      "location": "San Cristóbal Island, Galápagos Islands, Ecuador",
+      "latitude": -0.5308691,
+      "longitude": -90.5356602,
+      "date": "2021-11-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/galapagos-beach.JPG",
+          "title": "Galápagos beach"
+        }
+      ]
+    },
+    {
+      "id": "sketch-galapagos-view",
+      "location": "San Cristóbal Island, Galápagos Islands, Ecuador",
+      "latitude": -0.5308691,
+      "longitude": -90.5356602,
+      "date": "2021-11-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/galapagos-view.JPG",
+          "title": "Ocean view from the hotel at San Cristóbal"
+        }
+      ]
+    },
+    {
+      "id": "sketch-giverny",
+      "location": "Giverny, France",
+      "latitude": 49.0756,
+      "longitude": 1.5336,
+      "date": "2025-06-13",
+      "images": [
+        {
+          "path": "/assets/images/sketches/giverny.JPG",
+          "title": "Monet's Garden in Giverny"
+        }
+      ]
+    },
+    {
+      "id": "sketch-glasto-healing-fields",
+      "location": "Glastonbury Festival, England",
+      "latitude": 51.1550,
+      "longitude": -2.5819,
+      "date": "2023-06-28",
+      "images": [
+        {
+          "path": "/assets/images/sketches/glasto-healing-fields.JPG",
+          "title": "Healing Fields at Glastonbury"
+        }
+      ]
+    },
+    {
+      "id": "sketch-glasto-jane-goodall",
+      "location": "Glastonbury Festival, England",
+      "latitude": 51.1550,
+      "longitude": -2.5819,
+      "date": "2023-06-29",
+      "images": [
+        {
+          "path": "/assets/images/sketches/glasto-jane-goodall.JPG",
+          "title": "Jane Goodall talk at Glastonbury"
+        }
+      ]
+    },
+    {
+      "id": "sketch-glasto-the-park",
+      "location": "Glastonbury Festival, England",
+      "latitude": 51.1550,
+      "longitude": -2.5819,
+      "date": "2023-06-30",
+      "images": [
+        {
+          "path": "/assets/images/sketches/glasto-the-park.JPG",
+          "title": "The Park stage at Glastonbury"
+        }
+      ]
+    },
+    {
+      "id": "sketch-heidelberg",
+      "location": "Heidelberg, Germany",
+      "latitude": 49.3988,
+      "longitude": 8.6724,
+      "date": "2022-03-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/heidelberg.JPG",
+          "title": "Heidelberg"
+        }
+      ]
+    },
+    {
+      "id": "sketch-isle-of-skye",
+      "location": "Isle of Skye, Scotland",
+      "latitude": 57.4735,
+      "longitude": -6.2168,
+      "date": "2018-09-01",
+      "images": [
+        {
+          "path": "/assets/images/sketches/isle-of-skye.jpg",
+          "title": "Isle of Skye landscape"
+        }
+      ]
+    },
+    {
+      "id": "sketch-isle-of-skye-2",
+      "location": "Isle of Skye, Scotland",
+      "latitude": 57.4735,
+      "longitude": -6.2168,
+      "date": "2018-09-01",
+      "images": [
+        {
+          "path": "/assets/images/sketches/isle-of-skye-2.jpg",
+          "title": "Isle of Skye cliffs"
+        }
+      ]
+    },
+    {
+      "id": "sketch-isle-of-skye-ferry",
+      "location": "Armadale, Scotland",
+      "latitude": 57.0648737,
+      "longitude": -5.9115487,
+      "date": "2018-09-01",
+      "images": [
+        {
+          "path": "/assets/images/sketches/isle-of-skye-ferry.jpg",
+          "title": "On the ferry from Armadale to Mallaig"
+        }
+      ]
+    },
+    {
+      "id": "sketch-isle-of-skye-lochalsh",
+      "location": "Kyle of Lochalsh, Scotland",
+      "latitude": 57.2747,
+      "longitude": -5.7306,
+      "date": "2018-09-02",
+      "images": [
+        {
+          "path": "/assets/images/sketches/isle-of-skye-lochalsh.jpg",
+          "title": "Kyle of Lochalsh"
+        }
+      ]
+    },
+    {
+      "id": "sketch-isle-of-skye-train",
+      "location": "Scottish Highlands",
+      "latitude": 57.0711,
+      "longitude": -5.1097,
+      "date": "2018-08-31",
+      "images": [
+        {
+          "path": "/assets/images/sketches/isle-of-skye-train.jpg",
+          "title": "Train through Scottish Highlands"
+        }
+      ]
+    },
+    {
+      "id": "sketch-istanbul",
+      "location": "Istanbul, Turkey",
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "date": "2019-04-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/istanbul.jpg",
+          "title": "Istanbul mosque"
+        }
+      ]
+    },
+    {
+      "id": "sketch-istanbul-2",
+      "location": "Istanbul, Turkey",
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "date": "2019-04-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/istanbul-2.jpg",
+          "title": "Istanbul Bosphorus view"
+        }
+      ]
+    },
+    {
+      "id": "sketch-istanbul-3",
+      "location": "Istanbul, Turkey",
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "date": "2019-04-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/istanbul-3.jpg",
+          "title": "Istanbul street scene"
+        }
+      ]
+    },
+    {
+      "id": "sketch-istanbul-4",
+      "location": "Istanbul, Turkey",
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "date": "2019-04-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/istanbul-4.jpg",
+          "title": "Istanbul architecture"
+        }
+      ]
+    },
+    {
+      "id": "sketch-istanbul-ferry",
+      "location": "Istanbul, Turkey",
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "date": "2019-04-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/istanbul-ferry.jpg",
+          "title": "Istanbul ferry"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jakarta-old-town",
+      "location": "Kota Tua, Jakarta, Indonesia",
+      "latitude": -6.1352,
+      "longitude": 106.8133,
+      "date": "2023-12-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jakarta-old-town.jpg",
+          "title": "Jakarta Old Town",
+          "description": "Street scene in Kota Tua"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jakarta-plaza-indonesia",
+      "location": "Plaza Indonesia, Jakarta, Indonesia",
+      "latitude": -6.1936,
+      "longitude": 106.8230,
+      "date": "2023-12-21",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jakarta-plaza-indonesia.jpg",
+          "title": "Plaza Indonesia"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jakarta-sabang-16",
+      "location": "Sabang, Jakarta, Indonesia",
+      "latitude": -6.1805,
+      "longitude": 106.8284,
+      "date": "2023-12-22",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jakarta-sabang-16.jpg",
+          "title": "Sabang street 16"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jakarta-sabang-17",
+      "location": "Sabang, Jakarta, Indonesia",
+      "latitude": -6.1805,
+      "longitude": 106.8284,
+      "date": "2023-12-22",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jakarta-sabang-17.jpg",
+          "title": "Sabang street 17"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jakarta-sma-28",
+      "location": "SMA 28, Jakarta, Indonesia",
+      "latitude": -6.2088,
+      "longitude": 106.8456,
+      "date": "2023-12-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jakarta-sma-28.jpg",
+          "title": "SMA 28 school"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jakarta-sma-28-2",
+      "location": "SMA 28, Jakarta, Indonesia",
+      "latitude": -6.2088,
+      "longitude": 106.8456,
+      "date": "2023-12-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jakarta-sma-28-2.jpg",
+          "title": "SMA 28 school courtyard"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jakarta-sunda-kelapa",
+      "location": "Sunda Kelapa, Jakarta, Indonesia",
+      "latitude": -6.1119,
+      "longitude": 106.8078,
+      "date": "2023-12-24",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jakarta-sunda-kelapa.jpg",
+          "title": "Sunda Kelapa harbor"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jakarta-sushi",
+      "location": "Jakarta, Indonesia",
+      "latitude": -6.2088,
+      "longitude": 106.8456,
+      "date": "2023-12-25",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jakarta-sushi.jpg",
+          "title": "Sushi restaurant in Jakarta"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jogja",
+      "location": "Yogyakarta, Indonesia",
+      "latitude": -7.7956,
+      "longitude": 110.3695,
+      "date": "2019-07-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jogja.jpg",
+          "title": "Yogyakarta street"
+        }
+      ]
+    },
+    {
+      "id": "sketch-jogja-2",
+      "location": "Yogyakarta, Indonesia",
+      "latitude": -7.7956,
+      "longitude": 110.3695,
+      "date": "2019-07-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/jogja-2.jpg",
+          "title": "Yogyakarta traditional building"
+        }
+      ]
+    },
+    {
+      "id": "sketch-la-muralla-roja",
+      "location": "Calp, Spain",
+      "latitude": 38.6503,
+      "longitude": 0.0581,
+      "date": "2021-05-22",
+      "images": [
+        {
+          "path": "/assets/images/sketches/la-muralla-roja.PNG",
+          "title": "La Muralla Roja"
+        }
+      ]
+    },
+    {
+      "id": "sketch-london-coffee",
+      "location": "London, England",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "date": "2019-07-01",
+      "images": [
+        {
+          "path": "/assets/images/sketches/london-coffee.JPG",
+          "title": "London coffee shop"
+        }
+      ]
+    },
+    {
+      "id": "sketch-london-hackney",
+      "location": "Hackney, London, England",
+      "latitude": 51.5450,
+      "longitude": -0.0553,
+      "date": "2019-07-02",
+      "images": [
+        {
+          "path": "/assets/images/sketches/london-hackney.JPG",
+          "title": "Hackney neighborhood"
+        }
+      ]
+    },
+    {
+      "id": "sketch-lp-wat-vengthong",
+      "location": "Luang Prabang, Laos",
+      "latitude": 19.8847,
+      "longitude": 102.1350,
+      "date": "2018-03-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/lp-wat-vengthong.JPG",
+          "title": "Wat Vengthong temple"
+        }
+      ]
+    },
+    {
+      "id": "sketch-lucerne",
+      "location": "Lucerne, Switzerland",
+      "latitude": 47.0379,
+      "longitude": 8.3000,
+      "date": "2020-08-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/lucerne.jpg",
+          "title": "Lucerne lakeside"
+        }
+      ]
+    },
+    {
+      "id": "sketch-madrid-prado",
+      "location": "Prado Museum, Madrid, Spain",
+      "latitude": 40.4138,
+      "longitude": -3.6922,
+      "date": "2021-05-25",
+      "images": [
+        {
+          "path": "/assets/images/sketches/madrid-prado.jpg",
+          "title": "Prado Museum"
+        }
+      ]
+    },
+    {
+      "id": "sketch-manila",
+      "location": "Manila, Philippines",
+      "latitude": 14.5995,
+      "longitude": 120.9842,
+      "date": "2018-02-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/manila.jpg",
+          "title": "Manila street scene"
+        }
+      ]
+    },
+    {
+      "id": "sketch-manila-2",
+      "location": "Manila, Philippines",
+      "latitude": 14.5995,
+      "longitude": 120.9842,
+      "date": "2018-02-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/manila-2.jpg",
+          "title": "Manila cityscape"
+        }
+      ]
+    },
+    {
+      "id": "sketch-maninjau",
+      "location": "Lake Maninjau, Indonesia",
+      "latitude": -0.3167,
+      "longitude": 100.2000,
+      "date": "2019-08-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/maninjau.jpg",
+          "title": "Lake Maninjau"
+        }
+      ]
+    },
+    {
+      "id": "sketch-marrakech",
+      "location": "Marrakech, Morocco",
+      "latitude": 31.6295,
+      "longitude": -7.9811,
+      "date": "2021-02-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/marrakech.jpg",
+          "title": "Marrakech medina"
+        }
+      ]
+    },
+    {
+      "id": "sketch-marrakech-2",
+      "location": "Marrakech, Morocco",
+      "latitude": 31.6295,
+      "longitude": -7.9811,
+      "date": "2021-02-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/marrakech-2.jpg",
+          "title": "Marrakech market"
+        }
+      ]
+    },
+    {
+      "id": "sketch-marrakech-3",
+      "location": "Marrakech, Morocco",
+      "latitude": 31.6295,
+      "longitude": -7.9811,
+      "date": "2021-02-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/marrakech-3.jpg",
+          "title": "Marrakech architecture"
+        }
+      ]
+    },
+    {
+      "id": "sketch-marrakech-4",
+      "location": "Marrakech, Morocco",
+      "latitude": 31.6295,
+      "longitude": -7.9811,
+      "date": "2021-02-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/marrakech-4.jpg",
+          "title": "Marrakech square"
+        }
+      ]
+    },
+    {
+      "id": "sketch-milano-central",
+      "location": "Milano Centrale, Italy",
+      "latitude": 45.4869,
+      "longitude": 9.2044,
+      "date": "2023-07-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/milano-central.jpg",
+          "title": "Milano Centrale train station"
+        }
+      ]
+    },
+    {
+      "id": "sketch-padang",
+      "location": "Padang, Indonesia",
+      "latitude": -0.9471,
+      "longitude": 100.4172,
+      "date": "2019-08-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/padang.jpg",
+          "title": "Padang city view"
+        }
+      ]
+    },
+    {
+      "id": "sketch-padang-2",
+      "location": "Padang, Indonesia",
+      "latitude": -0.9471,
+      "longitude": 100.4172,
+      "date": "2019-08-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/padang-2.jpg",
+          "title": "Padang harbor"
+        }
+      ]
+    },
+    {
+      "id": "sketch-padang-3",
+      "location": "Padang, Indonesia",
+      "latitude": -0.9471,
+      "longitude": 100.4172,
+      "date": "2019-08-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/padang-3.jpg",
+          "title": "Padang street market"
+        }
+      ]
+    },
+    {
+      "id": "sketch-pangalengan",
+      "location": "Pangalengan, Indonesia",
+      "latitude": -7.1833,
+      "longitude": 107.5833,
+      "date": "2020-02-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/pangalengan.jpg",
+          "title": "Pangalengan tea plantation"
+        }
+      ]
+    },
+    {
+      "id": "sketch-paris-building",
+      "location": "Paris, France",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "date": "2020-07-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/paris-building.jpg",
+          "title": "Parisian building"
+        }
+      ]
+    },
+    {
+      "id": "sketch-paris-gare-du-nord",
+      "location": "Gare du Nord, Paris, France",
+      "latitude": 48.8808,
+      "longitude": 2.3553,
+      "date": "2020-07-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/paris-gare-du-nord.jpg",
+          "title": "Gare du Nord station"
+        }
+      ]
+    },
+    {
+      "id": "sketch-paris-gare-du-nord-2",
+      "location": "Gare du Nord, Paris, France",
+      "latitude": 48.8808,
+      "longitude": 2.3553,
+      "date": "2020-07-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/paris-gare-du-nord-2.jpg",
+          "title": "Gare du Nord interior"
+        }
+      ]
+    },
+    {
+      "id": "sketch-paris-hexagon",
+      "location": "Paris, France",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "date": "2020-07-12",
+      "images": [
+        {
+          "path": "/assets/images/sketches/paris-hexagon.jpg",
+          "title": "Paris hexagonal building"
+        }
+      ]
+    },
+    {
+      "id": "sketch-paris-notre-dame",
+      "location": "Notre-Dame, Paris, France",
+      "latitude": 48.8530,
+      "longitude": 2.3499,
+      "date": "2020-07-13",
+      "images": [
+        {
+          "path": "/assets/images/sketches/paris-notre-dame.jpg",
+          "title": "Notre-Dame Cathedral"
+        }
+      ]
+    },
+    {
+      "id": "sketch-paris-general",
+      "location": "Paris, France",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "date": "2020-07-14",
+      "images": [
+        {
+          "path": "/assets/images/sketches/paris.JPG",
+          "title": "Paris street scene"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-chulia",
+      "location": "Chulia Street, Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-chulia.JPG",
+          "title": "Chulia Street"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-coffee",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-coffee.JPG",
+          "title": "Penang coffee shop"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-constant-gardener",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-constant-gardener.JPG",
+          "title": "The Constant Gardener cafe"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-food-court",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-12",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-food-court.JPG",
+          "title": "Penang food court"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-house",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-13",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-house.JPG",
+          "title": "Traditional Penang house"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-joja-bagels",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-14",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-joja-bagels.JPG",
+          "title": "Joja Bagels cafe"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-mother-and-son",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-15",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-mother-and-son.JPG",
+          "title": "Mother and son in Penang"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-nasi-kandar",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-16",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-nasi-kandar.JPG",
+          "title": "Nasi kandar restaurant"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-peranakan-mansion",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-17",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-peranakan-mansion.JPG",
+          "title": "Peranakan Mansion"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-street",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-18",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-street.JPG",
+          "title": "Penang street scene"
+        }
+      ]
+    },
+    {
+      "id": "sketch-penang-temple",
+      "location": "Penang, Malaysia",
+      "latitude": 5.4164,
+      "longitude": 100.3327,
+      "date": "2018-04-19",
+      "images": [
+        {
+          "path": "/assets/images/sketches/penang-temple.JPG",
+          "title": "Chinese temple in Penang"
+        }
+      ]
+    },
+    {
+      "id": "sketch-peru-machu-picchu",
+      "location": "Machu Picchu, Peru",
+      "latitude": -13.163068,
+      "longitude": -72.545128,
+      "date": "2021-11-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/peru-machu-picchu.JPG",
+          "title": "Machu Picchu ruins"
+        }
+      ]
+    },
+    {
+      "id": "sketch-pisa",
+      "location": "Pisa, Italy",
+      "latitude": 43.7228,
+      "longitude": 10.4017,
+      "date": "2023-07-08",
+      "images": [
+        {
+          "path": "/assets/images/sketches/pisa.jpg",
+          "title": "Leaning Tower of Pisa"
+        }
+      ]
+    },
+    {
+      "id": "sketch-porto-bridge",
+      "location": "Porto, Portugal",
+      "latitude": 41.1579,
+      "longitude": -8.6291,
+      "date": "2022-06-08",
+      "images": [
+        {
+          "path": "/assets/images/sketches/porto-bridge.JPG",
+          "title": "Dom Luís I Bridge"
+        }
+      ]
+    },
+    {
+      "id": "sketch-porto-combi",
+      "location": "Porto, Portugal",
+      "latitude": 41.1579,
+      "longitude": -8.6291,
+      "date": "2022-06-09",
+      "images": [
+        {
+          "path": "/assets/images/sketches/porto-combi.JPG",
+          "title": "Porto tram"
+        }
+      ]
+    },
+    {
+      "id": "sketch-porto-general",
+      "location": "Porto, Portugal",
+      "latitude": 41.1579,
+      "longitude": -8.6291,
+      "date": "2022-06-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/porto.JPG",
+          "title": "Porto old town"
+        }
+      ]
+    },
+    {
+      "id": "sketch-prambanan",
+      "location": "Prambanan, Indonesia",
+      "latitude": -7.7520,
+      "longitude": 110.4915,
+      "date": "2019-07-16",
+      "images": [
+        {
+          "path": "/assets/images/sketches/prambanan.jpg",
+          "title": "Prambanan Temple"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rome",
+      "location": "Rome, Italy",
+      "latitude": 41.9028,
+      "longitude": 12.4964,
+      "date": "2023-07-05",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rome.jpg",
+          "title": "Roman architecture"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rome-1",
+      "location": "Rome, Italy",
+      "latitude": 41.9028,
+      "longitude": 12.4964,
+      "date": "2023-07-05",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rome-1.jpg",
+          "title": "Roman street"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rome-colosseum",
+      "location": "Colosseum, Rome, Italy",
+      "latitude": 41.8902,
+      "longitude": 12.4922,
+      "date": "2023-07-06",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rome-colosseum.jpg",
+          "title": "Colosseum"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rome-via-republica",
+      "location": "Via della Repubblica, Rome, Italy",
+      "latitude": 41.9021,
+      "longitude": 12.4975,
+      "date": "2023-07-07",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rome-via-republica.jpg",
+          "title": "Via della Repubblica"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rv-aljezur",
+      "location": "Aljezur, Portugal",
+      "latitude": 37.3194,
+      "longitude": -8.8017,
+      "date": "2022-05-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rv-aljezur.JPG",
+          "title": "Aljezur coastline"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rv-almograve",
+      "location": "Almograve, Portugal",
+      "latitude": 37.6619,
+      "longitude": -8.7956,
+      "date": "2022-05-21",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rv-almograve.JPG",
+          "title": "Almograve beach"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rv-carrapateira",
+      "location": "Carrapateira, Portugal",
+      "latitude": 37.1833,
+      "longitude": -8.9167,
+      "date": "2022-05-22",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rv-carrapateira.JPG",
+          "title": "Carrapateira cliffs"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rv-monte-clerigo",
+      "location": "Monte Clérigo, Portugal",
+      "latitude": 37.3333,
+      "longitude": -8.8500,
+      "date": "2022-05-23",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rv-monte-clerigo.JPG",
+          "title": "Monte Clérigo beach"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rv-odexeice",
+      "location": "Odeceixe, Portugal",
+      "latitude": 37.4433,
+      "longitude": -8.7964,
+      "date": "2022-05-24",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rv-odexeice.JPG",
+          "title": "Odeceixe river"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rv-porto-covo",
+      "location": "Porto Covo, Portugal",
+      "latitude": 37.8528,
+      "longitude": -8.7917,
+      "date": "2022-05-25",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rv-porto-covo.JPG",
+          "title": "Porto Covo village"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rv-vila-nova",
+      "location": "Vila Nova de Milfontes, Portugal",
+      "latitude": 37.7256,
+      "longitude": -8.7847,
+      "date": "2022-05-26",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rv-vila-nova.JPG",
+          "title": "Vila Nova de Milfontes"
+        }
+      ]
+    },
+    {
+      "id": "sketch-rv-general",
+      "location": "Rota Vicentina, Portugal",
+      "latitude": 37.5000,
+      "longitude": -8.8000,
+      "date": "2022-05-27",
+      "images": [
+        {
+          "path": "/assets/images/sketches/rv.JPG",
+          "title": "Rota Vicentina trail"
+        }
+      ]
+    },
+    {
+      "id": "sketch-salzburg-mirabelle",
+      "location": "Salzburg, Austria",
+      "latitude": 47.8095,
+      "longitude": 13.0550,
+      "date": "2020-08-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/salzburg-mirabelle.JPG",
+          "title": "Mirabell Gardens"
+        }
+      ]
+    },
+    {
+      "id": "sketch-salzburg-st-peters-abbey",
+      "location": "Salzburg, Austria",
+      "latitude": 47.7965,
+      "longitude": 13.0436,
+      "date": "2020-08-21",
+      "images": [
+        {
+          "path": "/assets/images/sketches/salzburg-st-peters-abbey.JPG",
+          "title": "St. Peter's Abbey"
+        }
+      ]
+    },
+    {
+      "id": "sketch-singapore-gp",
+      "location": "Singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "date": "2020-09-19",
+      "images": [
+        {
+          "path": "/assets/images/sketches/singapore-gp.JPG",
+          "title": "Singapore Grand Prix circuit"
+        }
+      ]
+    },
+    {
+      "id": "sketch-singapore-marina",
+      "location": "Marina Bay, Singapore",
+      "latitude": 1.2844,
+      "longitude": 103.8607,
+      "date": "2020-09-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/singapore-marina.JPG",
+          "title": "Marina Bay Sands"
+        }
+      ]
+    },
+    {
+      "id": "sketch-singapore-marina-2",
+      "location": "Marina Bay, Singapore",
+      "latitude": 1.2844,
+      "longitude": 103.8607,
+      "date": "2020-09-20",
+      "images": [
+        {
+          "path": "/assets/images/sketches/singapore-marina-2.JPG",
+          "title": "Marina Bay skyline"
+        }
+      ]
+    },
+    {
+      "id": "sketch-singapore-tiong-bahru",
+      "location": "Tiong Bahru, Singapore",
+      "latitude": 1.2859,
+      "longitude": 103.8266,
+      "date": "2020-09-21",
+      "images": [
+        {
+          "path": "/assets/images/sketches/singapore-tiong-bahru.JPG",
+          "title": "Tiong Bahru neighborhood"
+        }
+      ]
+    },
+    {
+      "id": "sketch-stirling-castle",
+      "location": "Stirling, Scotland",
+      "latitude": 56.1165,
+      "longitude": -3.9369,
+      "date": "2021-11-11",
+      "images": [
+        {
+          "path": "/assets/images/sketches/stirling-castle.jpg",
+          "title": "Stirling Castle"
+        }
+      ]
+    },
+    {
+      "id": "sketch-tangkahan-1",
+      "location": "Tangkahan, Indonesia",
+      "latitude": 3.6667,
+      "longitude": 98.1667,
+      "date": "2019-09-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/tangkahan-1.jpg",
+          "title": "Tangkahan river"
+        }
+      ]
+    },
+    {
+      "id": "sketch-tangkahan-2",
+      "location": "Tangkahan, Indonesia",
+      "latitude": 3.6667,
+      "longitude": 98.1667,
+      "date": "2019-09-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/tangkahan-2.jpg",
+          "title": "Tangkahan jungle"
+        }
+      ]
+    },
+    {
+      "id": "sketch-tangkahan-3",
+      "location": "Tangkahan, Indonesia",
+      "latitude": 3.6667,
+      "longitude": 98.1667,
+      "date": "2019-09-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/tangkahan-3.jpg",
+          "title": "Tangkahan elephants"
+        }
+      ]
+    },
+    {
+      "id": "sketch-tangkahan-4",
+      "location": "Tangkahan, Indonesia",
+      "latitude": 3.6667,
+      "longitude": 98.1667,
+      "date": "2019-09-10",
+      "images": [
+        {
+          "path": "/assets/images/sketches/tangkahan-4.jpg",
+          "title": "Tangkahan wildlife"
+        }
+      ]
+    },
+    {
+      "id": "sketch-venice",
+      "location": "Venice, Italy",
+      "latitude": 45.4408,
+      "longitude": 12.3155,
+      "date": "2023-07-12",
+      "images": [
+        {
+          "path": "/assets/images/sketches/venice.jpg",
+          "title": "Venice canal"
+        }
+      ]
+    },
+    {
+      "id": "sketch-venice-2",
+      "location": "Venice, Italy",
+      "latitude": 45.4408,
+      "longitude": 12.3155,
+      "date": "2023-07-12",
+      "images": [
+        {
+          "path": "/assets/images/sketches/venice-2.jpg",
+          "title": "Venice gondola"
+        }
+      ]
+    },
+    {
+      "id": "sketch-venice-3",
+      "location": "Venice, Italy",
+      "latitude": 45.4408,
+      "longitude": 12.3155,
+      "date": "2023-07-12",
+      "images": [
+        {
+          "path": "/assets/images/sketches/venice-3.jpg",
+          "title": "Venice architecture"
+        }
+      ]
+    },
+    {
+      "id": "sketch-venice-4",
+      "location": "Venice, Italy",
+      "latitude": 45.4408,
+      "longitude": 12.3155,
+      "date": "2023-07-12",
+      "images": [
+        {
+          "path": "/assets/images/sketches/venice-4.jpg",
+          "title": "Venice bridge"
+        }
+      ]
+    },
+    {
+      "id": "sketch-wat-arun",
+      "location": "Wat Arun, Bangkok, Thailand",
+      "latitude": 13.7421182,
+      "longitude": 100.4809202,
+      "date": "2018-09-01",
+      "images": [
+        {
+          "path": "/assets/images/sketches/wat-arun.JPG",
+          "title": "A quick sketch of Wat Arun in the afternoon."
+        }
+      ]
+    },
+    {
+      "id": "sketch-wat-po",
+      "location": "Wat Pho, Bangkok, Thailand",
+      "latitude": 13.7468,
+      "longitude": 100.4926,
+      "date": "2018-09-02",
+      "images": [
+        {
+          "path": "/assets/images/sketches/wat-po.JPG",
+          "title": "Wat Pho temple"
+        }
+      ]
+    }
+  ]
+}
