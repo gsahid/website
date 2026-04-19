@@ -2,6 +2,7 @@
 title: "Fisherman's Trail, Day 9"
 subtitle: "Vila do Bispo to Sagres (21 km)"
 date: 2023-10-09
+category: "Fisherman's Trail"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/fishermans-trail-day9/DSCF3976.jpg"
 ---
 

@@ -2,6 +2,7 @@
 title: "Camino Portuguese"
 subtitle: "a summary"
 date: 2023-06-25
+category: "Camino Portuguese"
 ---
 
 ## Navigation

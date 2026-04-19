@@ -2,6 +2,7 @@
 title: "Fisherman's Trail"
 subtitle: "a summary"
 date: 2023-09-28
+category: "Fisherman's Trail"
 ---
 
 ## Navigation

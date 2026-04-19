@@ -5,14 +5,18 @@ npm-debug.log*
 
 # Dependencies
 node_modules/
-package-lock.json
 
-# Eleventy
+# Build output
 _site/
+build/
+.svelte-kit/
 
 # Misc
 .DS_Store
 .env
+.env.local
+.env.*
+!.env.example
 
 # Images (hosted on Cloudflare R2)
 src/field-notes/images/

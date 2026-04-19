@@ -2,6 +2,7 @@
 title: "Fisherman's Trail, Day 7"
 subtitle: "Arrifana to Carrapateira (24 km)"
 date: 2023-10-07
+category: "Fisherman's Trail"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/fishermans-trail-day7/DSCF3799.jpg"
 ---
 

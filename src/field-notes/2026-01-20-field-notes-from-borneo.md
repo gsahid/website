@@ -2,6 +2,7 @@
 title: "Field notes from Borneo"
 subtitle: "4 days in Tanjung Puting National Park"
 date: 2026-01-20
+category: "Borneo"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/field-notes-from-borneo/IMG_20260209_085827958.jpg"
 ---
 

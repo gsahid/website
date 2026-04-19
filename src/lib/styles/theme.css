@@ -1,0 +1,298 @@
+/* ============================================================
+   DESIGN SYSTEM - Theme
+   Colors, spacing, layout, and transitions.
+   Aesthetic: editorial black/white with warm coral accent
+   ============================================================ */
+
+:root {
+	/* --- Colors: Dark mode (default) --- */
+	--bg-primary:   #0a0a0a;
+	--bg-secondary: #141414;
+	--bg-hover:     rgba(255, 255, 255, 0.05);
+
+	--text-primary:   #f5f5f5;
+	--text-secondary: #888888;
+	--text-muted:     #555555;
+
+	--border:        rgba(255, 255, 255, 0.1);
+	--border-subtle: rgba(255, 255, 255, 0.05);
+	--surface-elevated: color-mix(in srgb, white 4%, var(--bg-secondary) 96%);
+	--surface-overlay: color-mix(in srgb, white 8%, var(--bg-primary) 92%);
+	--shadow-soft: none;
+	--shadow-card: none;
+	--map-control-bg: var(--surface-elevated);
+	--map-control-border: var(--border);
+	--map-control-icon: var(--text-primary);
+	--map-pill-bg: transparent;
+	--map-pill-active-bg: var(--bg-hover);
+	--map-pill-border: var(--border);
+	--map-pill-active-border: var(--accent);
+	--map-marker: var(--accent);
+	--map-marker-active: var(--palette-grove);
+	--map-cluster: var(--palette-grove);
+	--map-marker-stroke: var(--paper-strong);
+	--map-marker-text: var(--paper-strong);
+
+	--accent:       #E85D4A;
+	--accent-hover: #F07563;
+
+	/* --- Editorial palette --- */
+	--ink-strong: #1f1f1f;
+	--ink-soft:   #555555;
+	--ink-muted:  #777777;
+	--paper-strong: #fcfbf5;
+	--paper-soft:   rgba(252, 251, 245, 0.78);
+	--paper-muted:  rgba(252, 251, 245, 0.58);
+
+	--palette-porcelain: #F0F0E3;
+	--palette-meadow:    #83B97B;
+	--palette-grove:     #006133;
+	--palette-citron:    #D7E272;
+	--palette-sunwash:   #FFF9B2;
+	--palette-vermilion: #FE4629;
+	--palette-clay:      #A65F0F;
+	--palette-apricot:   #FFD1B2;
+	--palette-lilac:     #FEC7FF;
+	--palette-peri:      #BBCAFF;
+
+	/* --- Status / semantic colors --- */
+	--color-success: #4ade80;
+	--color-warning: #fbbf24;
+	--color-error:   #ef4444;
+	--color-info:    #60a5fa;
+
+	/* --- Spacing (8px base) --- */
+	--spacing-xs:  0.25rem;   /*  4px */
+	--spacing-sm:  0.5rem;    /*  8px */
+	--spacing-md:  1rem;      /* 16px */
+	--spacing-lg:  1.5rem;    /* 24px */
+	--spacing-xl:  2rem;      /* 32px */
+	--spacing-2xl: 3rem;      /* 48px */
+	--spacing-3xl: 4rem;      /* 64px */
+
+	/* --- Layout --- */
+	--max-width:       1200px;
+	--max-width-prose: 42rem;
+	--max-width-wide:  1400px;
+	--padding-desktop: 3rem;
+	--padding-mobile:  1.5rem;
+
+	/* --- Radius (none — sharp editorial edges) --- */
+	--radius-sm: 0;
+	--radius-md: 0;
+	--radius-lg: 0;
+
+	/* --- Transitions --- */
+	--transition-fast: 150ms ease;
+	--transition-base: 200ms ease;
+}
+
+/* Light mode: explicit class or OS preference (unless .dark is set) */
+html.light,
+:root:not(.dark):not(.light):not(.theme-porcelain):not(.theme-meadow):not(.theme-grove):not(.theme-citron):not(.theme-sunwash):not(.theme-vermilion):not(.theme-clay):not(.theme-apricot):not(.theme-lilac):not(.theme-peri) {
+	/* Only apply via prefers-color-scheme if no explicit class is set */
+}
+
+@media (prefers-color-scheme: light) {
+	:root:not(.dark):not(.light):not(.theme-porcelain):not(.theme-meadow):not(.theme-grove):not(.theme-citron):not(.theme-sunwash):not(.theme-vermilion):not(.theme-clay):not(.theme-apricot):not(.theme-lilac):not(.theme-peri) {
+		--bg-primary:   #fafafa;
+		--bg-secondary: #f0f0f0;
+		--bg-hover:     rgba(0, 0, 0, 0.03);
+
+		--text-primary:   #1a1a1a;
+		--text-secondary: #555555;
+		--text-muted:     #888888;
+
+		--border:        #e0e0e0;
+		--border-subtle: #ebebeb;
+		--surface-elevated: #f4f1ea;
+		--surface-overlay: rgba(252, 251, 245, 0.92);
+		--shadow-soft: none;
+		--shadow-card: none;
+		--map-control-bg: var(--surface-elevated);
+		--map-control-border: var(--border);
+		--map-control-icon: var(--text-primary);
+		--map-pill-bg: transparent;
+		--map-pill-active-bg: var(--bg-hover);
+		--map-pill-border: var(--border);
+		--map-pill-active-border: var(--accent);
+		--map-marker: var(--accent);
+		--map-marker-active: var(--palette-grove);
+		--map-cluster: var(--palette-grove);
+		--map-marker-stroke: var(--paper-strong);
+		--map-marker-text: var(--paper-strong);
+
+		--accent:       #DC2626;
+		--accent-hover: #E85D4A;
+	}
+}
+
+html.light {
+	--bg-primary:   #fafafa;
+	--bg-secondary: #f0f0f0;
+	--bg-hover:     rgba(0, 0, 0, 0.03);
+
+	--text-primary:   #1a1a1a;
+	--text-secondary: #555555;
+	--text-muted:     #888888;
+
+	--border:        #e0e0e0;
+	--border-subtle: #ebebeb;
+	--surface-elevated: #f4f1ea;
+	--surface-overlay: rgba(252, 251, 245, 0.92);
+	--shadow-soft: none;
+	--shadow-card: none;
+	--map-control-bg: var(--surface-elevated);
+	--map-control-border: var(--border);
+	--map-control-icon: var(--text-primary);
+	--map-pill-bg: transparent;
+	--map-pill-active-bg: var(--bg-hover);
+	--map-pill-border: var(--border);
+	--map-pill-active-border: var(--accent);
+	--map-marker: var(--accent);
+	--map-marker-active: var(--palette-grove);
+	--map-cluster: var(--palette-grove);
+	--map-marker-stroke: var(--paper-strong);
+	--map-marker-text: var(--paper-strong);
+
+	--accent:       #DC2626;
+	--accent-hover: #E85D4A;
+}
+
+/* --- Base resets --- */
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 17px;
+	background-color: var(--bg-primary);
+	color-scheme: dark;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
+}
+
+html.light {
+	color-scheme: light;
+}
+
+body {
+	background-color: var(--bg-primary);
+	color: var(--text-primary);
+	line-height: 1.6;
+	min-height: 100vh;
+}
+
+html.theme-porcelain,
+html.theme-meadow,
+html.theme-citron,
+html.theme-sunwash,
+html.theme-vermilion,
+html.theme-apricot,
+html.theme-lilac,
+html.theme-peri {
+	color-scheme: light;
+	--text-primary:   var(--ink-strong);
+	--text-secondary: color-mix(in srgb, var(--ink-strong) 74%, var(--bg-primary) 26%);
+	--text-muted:     color-mix(in srgb, var(--ink-strong) 52%, var(--bg-primary) 48%);
+	--bg-secondary:   color-mix(in srgb, white 22%, var(--bg-primary) 78%);
+	--bg-hover:       color-mix(in srgb, var(--ink-strong) 5%, var(--bg-primary) 95%);
+	--border:         color-mix(in srgb, var(--ink-strong) 14%, var(--bg-primary) 86%);
+	--border-subtle:  color-mix(in srgb, var(--ink-strong) 8%, var(--bg-primary) 92%);
+}
+
+html.theme-grove,
+html.theme-clay {
+	color-scheme: dark;
+	--text-primary:   var(--paper-strong);
+	--text-secondary: color-mix(in srgb, var(--paper-strong) 78%, var(--bg-primary) 22%);
+	--text-muted:     color-mix(in srgb, var(--paper-strong) 58%, var(--bg-primary) 42%);
+	--bg-secondary:   color-mix(in srgb, white 8%, var(--bg-primary) 92%);
+	--bg-hover:       color-mix(in srgb, white 10%, var(--bg-primary) 90%);
+	--border:         color-mix(in srgb, white 16%, var(--bg-primary) 84%);
+	--border-subtle:  color-mix(in srgb, white 8%, var(--bg-primary) 92%);
+}
+
+html.theme-porcelain {
+	--bg-primary: var(--palette-porcelain);
+	--accent: #2f6b43;
+	--accent-hover: #245236;
+}
+
+html.theme-meadow {
+	--bg-primary: var(--palette-meadow);
+	--accent: #1f4d2f;
+	--accent-hover: #173923;
+}
+
+html.theme-grove {
+	--bg-primary: var(--palette-grove);
+	--accent: #D7E272;
+	--accent-hover: #FFF9B2;
+}
+
+html.theme-citron {
+	--bg-primary: var(--palette-citron);
+	--accent: #006133;
+	--accent-hover: #2f7a4a;
+}
+
+html.theme-sunwash {
+	--bg-primary: var(--palette-sunwash);
+	--accent: #A65F0F;
+	--accent-hover: #8c4f0b;
+}
+
+html.theme-vermilion {
+	--bg-primary: var(--palette-vermilion);
+	--accent: #7e1d12;
+	--accent-hover: #64170e;
+}
+
+html.theme-clay {
+	--bg-primary: var(--palette-clay);
+	--accent: #FFF9B2;
+	--accent-hover: #F0F0E3;
+}
+
+html.theme-apricot {
+	--bg-primary: var(--palette-apricot);
+	--accent: #A65F0F;
+	--accent-hover: #8c4f0b;
+}
+
+html.theme-lilac {
+	--bg-primary: var(--palette-lilac);
+	--accent: #6b4aa1;
+	--accent-hover: #573a84;
+}
+
+html.theme-peri {
+	--bg-primary: var(--palette-peri);
+	--accent: #2e4f93;
+	--accent-hover: #244078;
+}
+
+/* --- Selection --- */
+::selection {
+	background-color: rgba(232, 93, 74, 0.3);
+	color: var(--text-primary);
+}
+
+/* --- Focus --- */
+:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
+}
+
+/* --- Scrollbar (webkit) --- */
+::-webkit-scrollbar       { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+/* --- Images --- */
+img { max-width: 100%; height: auto; display: block; }

@@ -2,6 +2,7 @@
 title: "Fisherman's Trail, Day 1"
 subtitle: "Porto Covo to Vila Nova de Milfontes (20 km)"
 date: 2023-09-30
+category: "Fisherman's Trail"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/fishermans-trail-day-1/DSCF3249.jpg"
 ---
 

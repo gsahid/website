@@ -2,6 +2,7 @@
 title: "Camino Portuguese, Day 5"
 subtitle: "Caldas de Reis to Padrón (20 km)"
 date: 2023-07-02
+category: "Camino Portuguese"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/camino-portuguese-day-5/DSCF2921.jpg"
 ---
 

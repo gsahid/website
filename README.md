@@ -1,88 +1,43 @@
-# Eleventy Plus Vite <br>🏃💨
+# Website
 
-A clean and fast Eleventy Starter Project with Vite.
+Homepage-first SvelteKit rebuild of `galuhsahid.com`.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ef99b4ea-199f-497b-84c1-48c34355da8a/deploy-status)](https://app.netlify.com/sites/eleventyplusvite/deploys)
-## Features
+## Stack
 
-* Eleventy v3
-* Eleventy Dev Server with live reload
-* Vite v5
-* Vite as Middleware in Eleventy Dev Server (uses [eleventy-plugin-vite](https://github.com/11ty/eleventy-plugin-vite/))
-* Eleventy build output is post-processed by [Vite](https://vitejs.dev) (with Rollup)
-* CSS/Sass post-processing with PostCSS incl. [Autoprefixer](https://github.com/postcss/autoprefixer) and cssnano
-* Uses [my own opinionated CSS/Sass structure](https://matthiasott.com/notes/how-i-structure-my-css)
-* Critical CSS, generated and inlined via [rollup-plugin-critical](https://github.com/nystudio107/rollup-plugin-critical). The main CSS file is then loaded asynchronously with [Scott Jehl’s `media` loading strategy](https://www.filamentgroup.com/lab/load-css-simpler/) (adds `media="print"` and swaps to `media="all"` once loaded)
-* Example implementation of a web font loading strategy ([critical FOFT with preload](https://www.zachleat.com/web/comprehensive-webfonts/#critical-foft-preload))
-* Basic fluid typography based on [Utopia](https://utopia.fyi)
-* Basic dark mode support (using `prefers-color-scheme` and CSS Custom Properties)
-* Polyfill for [focus-visible](https://matthiasott.com/notes/focus-visible-is-here)
-* RSS feed 🧡
-* XML sitemap
-* Four Hundos Lighthouse score 💯💯💯💯
+- SvelteKit 2
+- Svelte 5
+- Vite 7
+- `@sveltejs/adapter-static`
+- Shared local design-system styles from `../design-system`
 
-## Getting started
-
-Start by [generating a new repository based on this project](https://github.com/matthiasott/eleventy-plus-vite/generate).
-
-After cloning (or downloading) the repository to your local machine, install all dependencies with the command
+## Commands
 
 ```sh
 npm install
-```
-
-## Run dev server
-
-The project comes with Eleventy’s built-in development server. You can start the server with
-
-```sh
-npm start
-````
-
-or
-
-```sh
-npx @11ty/eleventy --serve
-````
-
-
-## Build
-
-To trigger a production build, use
-
-```sh
+npm run dev
 npm run build
-````
-
-or
-
-```sh
-npx @11ty/eleventy
 ```
 
-## Deploy a fork of this template to Netlify
+## Maps
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/matthiasott/eleventy-plus-vite)
+- Maps use MapLibre.
+- Preferred provider is MapTiler via `VITE_MAPTILER_KEY`.
+- Put the key in `website/.env.local`.
+- Shared map decisions live in `src/lib/map-system.js` and `src/lib/styles/global.css`.
+- Map pages should use the shared `.map-surface`, `.map-frame`, and `.map-pill` patterns instead of page-local map control styling.
+- Map info should default to an overlay card inside the map area, using `.map-info-card`.
+- Map metadata rows should use `.map-meta-list` and `.map-meta-item` with Material Symbols for items like location and date.
 
-## CSS
-By default, this starter project uses Sass with an opinionated folder structure. Feel free to replace this structure with your own. If you prefer to write standards-compliant, good old plain CSS, this is also supported. Nesting is then possible via the [PostCSS Nesting plugin](https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting), following the [CSS Nesting specification](https://drafts.csswg.org/css-nesting-1/).
+## Material Icons
 
-[Autoprefixer](https://github.com/postcss/autoprefixer) adds necessary browser prefixes. The [browserslist](https://github.com/browserslist/browserslist) settings can be adjusted in `package.json`.
+- Use Material Symbols Outlined via the shared `.material-symbol` class in `src/lib/styles/fonts.css`.
+- Prefer them for small functional UI affordances and metadata, not as decorative illustration.
+- On map/detail surfaces, keep icons inline with text, single-color, and token-driven through the surrounding text color.
 
-## Roadmap
-* Add more base styles and a demo page that shows example styles and components
-* Add a toggle button for the dark mode theme
-* More advanced base styles for modern CSS layout
-* Webmention/IndieWeb support
+## Scope
 
-## Feedback
+This first pass only ships the homepage at `/`.
 
-Please provide feedback! 🤗 Ideally by [filing an issue here](https://github.com/matthiasott/eleventy-plus-vite/issues) – or via a pull request.
-## Thank you!
-
-This starter project would not have been possible without the many great sites and projects I was able to learn from, use as inspiration, and shamelessly copy code from:
-
-* Zach Leatherman [zachleat.com](https://github.com/zachleat/zachleat.com)
-* Max Böck’s [Eleventastic](https://github.com/maxboeck/eleventastic)
-* Stephanie Eckles’s [11ty Netlify Jumpstart](https://github.com/5t3ph/11ty-netlify-jumpstart)
-* Miriam Suzanne [miriamsuzanne.com](https://www.miriamsuzanne.com)
+Deferred sections from the previous Eleventy site, such as field notes, sketches, writing,
+projects, and photography, remain in the repo for later migration but are not part of the active
+SvelteKit app yet.

@@ -2,6 +2,7 @@
 title: "Luang Prabang, Day 1"
 subtitle: "train ordeal, Sisavangvong Road, and khao nom kok"
 date: 2022-08-13
+category: "Laos"
 ---
 
 This trip is probably one of my worst planned solo trips yet. It doesn’t mean that it’s bad - it’s anything but! It’s just that I feel more unprepared than usual. My solo travel mishaps, I feel, have been quite minimal: there was the one time I booked the wrong date for my hostel in Austria, which I managed to rectify quickly without extra fee. Or that time I almost missed my flight to Alicante, because I forgot that security lines exist even for domestic flights. Or that time where I injured myself when hiking Machu Picchu. Or that time when my Galapagos flights didn’t get issued until the next 24 hours and nearly gave me a heart attack. But other than that, things usually go pretty smoothly, because I usually over prepared myself.

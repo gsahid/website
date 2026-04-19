@@ -2,6 +2,7 @@
 title: "Fisherman's Trail, Day 0"
 subtitle: "Lisbon to Porto Covo"
 date: 2023-09-29
+category: "Fisherman's Trail"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/fishermans-trail-day-0/beach.jpg"
 ---
 

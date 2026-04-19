@@ -1,0 +1,82 @@
+---
+layout: base
+title: Photography
+eleventyNavigation:
+  key: Photography
+  order: 5
+---
+
+<div class="photography-page">
+    <div class="slideshow">
+        <div class="slideshow__container">
+            <div class="slideshow__image-wrapper">
+                <img id="slideshow-image" class="slideshow__image" src="" alt="Street photography" />
+            </div>
+
+            <button class="slideshow__nav slideshow__nav--prev" id="prev-slide" aria-label="Previous image">
+                <span>←</span>
+            </button>
+
+            <button class="slideshow__nav slideshow__nav--next" id="next-slide" aria-label="Next image">
+                <span>→</span>
+            </button>
+        </div>
+
+        <div class="slideshow__info">
+            <div class="slideshow__counter">
+                <span id="current-slide">1</span> / <span id="total-slides">0</span>
+            </div>
+            <div class="slideshow__caption" id="slideshow-caption"></div>
+        </div>
+    </div>
+</div>
+
+<script type="module">
+    // Load photography data from data file
+    const photos = {{ photography | dump | safe }};
+
+    let currentSlide = 0;
+
+    const slideImage = document.getElementById('slideshow-image');
+    const slideCaption = document.getElementById('slideshow-caption');
+    const currentSlideEl = document.getElementById('current-slide');
+    const totalSlidesEl = document.getElementById('total-slides');
+    const prevBtn = document.getElementById('prev-slide');
+    const nextBtn = document.getElementById('next-slide');
+
+    function updateSlide() {
+        if (photos.length === 0) return;
+
+        const photo = photos[currentSlide];
+        slideImage.src = photo.url;
+        slideImage.alt = photo.caption || 'Street photography';
+        slideCaption.textContent = photo.caption || '';
+        currentSlideEl.textContent = currentSlide + 1;
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % photos.length;
+        updateSlide();
+    }
+
+    function prevSlide() {
+        currentSlide = (currentSlide - 1 + photos.length) % photos.length;
+        updateSlide();
+    }
+
+    // Event listeners
+    prevBtn.addEventListener('click', prevSlide);
+    nextBtn.addEventListener('click', nextSlide);
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') prevSlide();
+        if (e.key === 'ArrowRight') nextSlide();
+    });
+
+    // Initialize
+    totalSlidesEl.textContent = photos.length;
+    if (photos.length > 0) {
+        updateSlide();
+    }
+</script>

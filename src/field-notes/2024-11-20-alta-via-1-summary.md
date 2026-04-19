@@ -2,6 +2,7 @@
 title: "Fisherman's Trail"
 subtitle: "a summary"
 date: 2024-11-20
+category: "Alta Via 1"
 ---
 
 ## Navigation

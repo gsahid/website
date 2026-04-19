@@ -2,6 +2,7 @@
 title: "Bangkok, Day 2"
 subtitle: "congee, gurdwara, and some musical misadventures"
 date: 2023-03-25
+category: "Thailand"
 ---
 
 The following day, I proposed that we go for a light meal at the hotel and enjoy breakfast outside instead. When I say outside, I'm not referring to another coffee shop. I was looking for something that reminded me of home, the kind of breakfast place that my family and I would go to every Sunday morning. These places are often tucked away in unexpected locations, and they could be small eateries or even mobile vendors operating out of vans, arranging tables on the streets exclusively for the morning hours.

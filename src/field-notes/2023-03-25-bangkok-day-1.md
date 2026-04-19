@@ -2,6 +2,7 @@
 title: "Bangkok, Day 1"
 subtitle: "street food, dirty coffee, and a chance meeting with another sketcher"
 date: 2023-03-25
+category: "Thailand"
 ---
 
 There are a couple of options to get to Bangkok from Chiang Mai. Chiang Mai is up north while Bangkok is down south of Thailand, so to everyone else, taking the 1-hour flight seemed like a no-brainer. But not us! I, for one, detest getting to the airport two hours early only to wait in line for security checks again. And there is something special about looking out the window and watching the world go by. When I was a kid, I used to tell the school bus driver to drop me off last even though my house was the closest to our school so I could just sit there and stare out the window. It is a little quirk that has stuck with me all this years. In today's world, it feels like such a luxury.

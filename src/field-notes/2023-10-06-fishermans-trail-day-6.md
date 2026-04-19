@@ -2,6 +2,7 @@
 title: "Fisherman's Trail, Day 6"
 subtitle: "Aljezur to Arrifana (19 km)"
 date: 2023-10-06
+category: "Fisherman's Trail"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/fishermans-trail-day6/DSCF3718.jpg"
 ---
 

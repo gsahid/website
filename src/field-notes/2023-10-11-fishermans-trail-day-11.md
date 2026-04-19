@@ -2,6 +2,7 @@
 title: "Fisherman's Trail, Day 11"
 subtitle: "Salema to Luz to Lagos (26 km)"
 date: 2023-10-11
+category: "Fisherman's Trail"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/fishermans-trail-day11/DSCF4188.jpg"
 ---
 

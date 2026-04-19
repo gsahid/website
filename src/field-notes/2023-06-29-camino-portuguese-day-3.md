@@ -2,6 +2,7 @@
 title: "Camino Portuguese, Day 3"
 subtitle: "Redondela to Pontevedra (20 km)"
 date: 2023-06-29
+category: "Camino Portuguese"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/camino-portuguese-day-3/DSCF2773.jpg"
 ---
 

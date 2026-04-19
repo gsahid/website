@@ -2,6 +2,7 @@
 title: "Luang Prabang, Day 2"
 subtitle: "cooking class, jeow som, and starting over"
 date: 2022-08-14
+category: "Laos"
 ---
 
 My morning schedule was quite packed. I’ve been trying to learn how to “wing it” on trips, but it was just so difficult not to write anything down in my Notes app. Here was the original plan: wake up at 5 to check out the alms giving ceremony. Hike the Phu Soi Dao for the sunrise. Check out the morning market. Have coffee in one of the cafes. Go back to my hotel to take a nap. Lunch. Explore the temples. Cooking class.

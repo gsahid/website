@@ -2,6 +2,7 @@
 title: "Camino Portuguese, Day 4"
 subtitle: "Pontevedra to Caldas de Reis (23 km)"
 date: 2023-07-01
+category: "Camino Portuguese"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/camino-portuguese-day-4/DSCF2848.jpg"
 ---
 

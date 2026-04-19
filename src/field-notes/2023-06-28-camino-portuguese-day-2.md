@@ -2,6 +2,7 @@
 title: "Camino Portuguese, Day 2"
 subtitle: "O Porriño to Redondela (16 km)"
 date: 2023-06-28
+category: "Camino Portuguese"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/camino-portuguese-day-2/flower.jpg"
 ---
 

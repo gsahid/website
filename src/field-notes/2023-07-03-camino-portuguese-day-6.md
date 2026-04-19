@@ -2,6 +2,7 @@
 title: "Camino Portuguese, Day 6"
 subtitle: "Padrón to Santiago de Compostela (25 km)"
 date: 2023-07-03
+category: "Camino Portuguese"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/camino-portuguese-day-6/DSCF2954.jpg"
 ---
 

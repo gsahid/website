@@ -2,6 +2,7 @@
 title: "Camino Portuguese, Day 0"
 subtitle: "Porto to Valença"
 date: 2023-06-26
+category: "Camino Portuguese"
 featuredImage: "https://pub-b61096e0d85d4ca4b13ec99471178910.r2.dev/field-notes/camino-portuguese-day-0/bulwark.jpg"
 ---
 
