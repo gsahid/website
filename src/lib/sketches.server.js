@@ -1,9 +1,8 @@
 import { existsSync, statSync } from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
 import sketchesSource from '../_data/sketches.json';
 
-const publicDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../public');
+const publicDir = path.resolve(process.cwd(), 'public');
 
 function imageIsAvailable(imagePath) {
   const publicPath = path.join(publicDir, imagePath.replace(/^\//, ''));
