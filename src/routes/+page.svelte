@@ -36,7 +36,7 @@
       and <a href="https://Aidha.org">Aidha</a>.
     </p>
     <p>
-      Outside of work, I&apos;m an avid reader, <a href="/sketches">urban sketcher</a>, and street photographer. My
+      Outside of work, I&apos;m an avid <a href="https://library.velouria.dev">reader</a>, <a href="/sketches">urban sketcher</a>, and street photographer. My
       photography has been exhibited in Jakarta and <a href="https://www.mspfestival.com/cafe-leo">Montreal</a>
       and published in <a href="https://www.eyeshotstreetphotography.com/shop/magazines/no-mans-land-18">Eyeshot Magazine</a>.
       I also enjoy long-distance hiking, spending time outdoors, and <a href="/field-notes">writing field notes from my journeys</a>.
