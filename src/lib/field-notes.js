@@ -11,6 +11,7 @@ const NOTES_PER_PAGE = 12;
 const CATEGORY_ORDER = [
 	'Borneo',
 	'Tour du Mont Blanc',
+	'Malerweg',
 	'Alta Via 1',
 	"Fisherman's Trail",
 	'Camino Portuguese',
@@ -20,6 +21,7 @@ const CATEGORY_ORDER = [
 const CATEGORY_SLUGS = new Map([
 	['Borneo', 'borneo'],
 	['Tour du Mont Blanc', 'tour-du-mont-blanc'],
+	['Malerweg', 'malerweg'],
 	['Alta Via 1', 'alta-via-1'],
 	["Fisherman's Trail", 'fishermans-trail'],
 	['Camino Portuguese', 'camino-portuguese'],
