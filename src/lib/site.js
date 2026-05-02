@@ -52,6 +52,11 @@ export const experience = [
 
 export const publications = [
   {
+    year: '2026',
+    text: 'The Full AI Stack Panel @ Merantix AI Campus, Berlin, DE',
+    href: 'https://www.merantix-aicampus.com/event/the-full-ai-stack',
+  },
+  {
     year: '2024',
     text: 'Python data transformations at scale with dbt and Astronomer Cosmos, PyData Berlin, DE',
   },
