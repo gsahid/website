@@ -16,9 +16,11 @@ const CATEGORY_ORDER = [
 	"Fisherman's Trail",
 	'Camino Portuguese',
 	'Thailand',
-	'Laos'
+	'Laos',
+	'West Highland Way'
 ];
 const CATEGORY_SLUGS = new Map([
+	['West Highland Way', 'west-highland-way'],
 	['Borneo', 'borneo'],
 	['Tour du Mont Blanc', 'tour-du-mont-blanc'],
 	['Malerweg', 'malerweg'],
